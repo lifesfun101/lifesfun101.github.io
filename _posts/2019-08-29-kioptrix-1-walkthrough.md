@@ -222,7 +222,7 @@ ifconfig command did not work, meaning other commands (and exploits) might not w
 
 Continue enumerating the system further.
 
-Cat /etc/passwd | grep bash will provide a list of users present on the system.
+"Cat /etc/passwd | grep bash will provide a list of users present on the system."
 
 ![passwd](https://github.com/lifesfun101/Offensive-Security/raw/master/Walkthroughs/Kioptrix/passwd.png)
 
