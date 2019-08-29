@@ -2,3 +2,8 @@
 ---
 
 @import "{{ site.theme }}";
+
+#nav li {
+  display: inline;
+  padding-right: 30px;
+}
