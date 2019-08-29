@@ -258,7 +258,9 @@ Tada, root has been obtained.
 
 # Summary of the Commands Used
 
-```arp-scan -l
+```bash
+
+arp-scan -l
 
 nmap -p- 192.168.20.139
 
