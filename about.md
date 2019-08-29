@@ -2,6 +2,7 @@
 layout: default
 title: About - LifesFun's 101
 ---
+<h1>{{ page.title }}</h1>
 <div class="about">
 	<p>I'm a young information security professional who enjoys tough problems to solve and new challenges to take on. 
   I have graduated from college with Information Security Degree and have always been fascinated with this area of Information Technology. 
