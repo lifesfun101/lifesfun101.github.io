@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About - LifesFun's 101
+title: About
 ---
 <h1>{{ page.title }}</h1>
 <div class="about">
