@@ -4,6 +4,8 @@ title: "Kioptrix 1 Walkthrough"
 date: 2019-08-29
 ---
 
+Kioptrix is a series of vulnerable machines hosted on Vulnhub. Each machine provides a different security challenge than the previous one and each machine (level) gets harder. It provides perfect targets to practice enumeration, identify vulnerabilities, research exploits available thus sharpening your pentesting skills.
+
 # **Vulnerable System** : (Kioptrix #1)
 
 **Operating System** : Red Hat Linux 7.3
