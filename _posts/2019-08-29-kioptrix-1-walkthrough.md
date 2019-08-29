@@ -90,7 +90,7 @@ Gobuster enumeration of port 80:
 \*Note: Gobuster discovers hidden web directories. -u flag is used to specify the url and -w flag is used to specify the wordlist to be used.
 
 Browser enumeration of port 80:
-![browser_port_80](https://github.com/lifesfun101/Offensive-Security/blob/master/Walkthroughs/Kioptrix/browser80.png)
+![browser_port_80](https://github.com/lifesfun101/Offensive-Security/blob/master/Walkthroughs/Kioptrix/browser80.png?raw=true)
 
 Nikto enumeration of port 443 fails due incompatible SSL protocols, however the information we got from scanning port 80 seems to present the SSL vulnerabilities.
 
