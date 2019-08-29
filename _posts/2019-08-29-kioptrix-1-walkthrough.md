@@ -222,15 +222,15 @@ ifconfig command did not work, meaning other commands (and exploits) might not w
 
 Continue enumerating the system further.
 
-"Cat /etc/passwd | grep bash will provide a list of users present on the system."
+```cat /etc/passwd | grep bash``` will provide a list of users present on the system."
 
 ![passwd](https://github.com/lifesfun101/Offensive-Security/raw/master/Walkthroughs/Kioptrix/passwd.png)
 
-find / -perm -u=s -type f 2\&gt;/dev/null will profile all files with SUID privileges:
+```find / -perm -u=s -type f 2>/dev/null``` will provide all files with SUID privileges:
 
 ![suid](https://github.com/lifesfun101/Offensive-Security/raw/master/Walkthroughs/Kioptrix/suid.png)
 
-By typing gcc, a compiler installation can be confirmed:
+By typing ```gcc```, a compiler installation can be confirmed:
 
 ![gcc](https://github.com/lifesfun101/Offensive-Security/raw/master/Walkthroughs/Kioptrix/gcc.png)
 
@@ -258,7 +258,7 @@ Tada, root has been obtained.
 
 # Summary of the Commands Used
 
-arp-scan -l
+```arp-scan -l
 
 nmap -p- 192.168.20.139
 
@@ -307,5 +307,5 @@ gcc 3.c -o exp
 ./exp
 
 whoami
-
+```
 
