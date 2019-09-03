@@ -1,2 +1,4 @@
 theme: jekyll-theme-midnight
 name: LifesFun's 101
+plugins:
+  - jekyll-feed
