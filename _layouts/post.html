@@ -7,6 +7,7 @@ notes: active
 <p class="meta">{{ page.date | date_to_string }}</p>
 
 <div class="post">
+	<div id="toc"></div>
 	{{ content }}
 </div>
 
@@ -36,3 +37,8 @@ notes: active
 </div><!-- /.notes -->
 
 <script src="/assets/toc.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#toc').toc();
+});
+</script>
