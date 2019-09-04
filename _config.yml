@@ -1,16 +1,12 @@
 theme: jekyll-theme-midnight
 name: LifesFun's 101
 
+# Plugins
 plugins:
-  - jekyll-paginate-v2
+  - jekyll-paginate
 
-permalink: /:year/:month/
-pagination:
-  enabled: true
-  per_page: 10
-  sort_reverse: true
-  sort_field: 'date'
-  title: ':title'
-  trail:
-    before: 2
-    after: 2
+
+# Pagination
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
