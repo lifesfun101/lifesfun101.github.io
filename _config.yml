@@ -1,4 +1,5 @@
 theme: jekyll-theme-midnight
 name: LifesFun's 101
 
-catalog: true
+plugins:
+  - jekyll-toc
