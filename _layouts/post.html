@@ -19,7 +19,7 @@ notes: active
 			</info></h2>
 			<!-- Post content -->
 			<div class="notebody">
-				{% include toc.html html=content %}
+				{{ content }}
 			</div>
 			<!-- Post info -->
 			<div class="noteinfo">
@@ -30,7 +30,7 @@ notes: active
 
 			<!-- Post comments -->
 			<div class="notecomments">
-				{{ content }}	 
+				{% include disqus.html %}	 
 			</div>
 		</div><!-- / .note .single -->
 </div><!-- /.notes -->
