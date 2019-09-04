@@ -6,7 +6,8 @@ notes: active
 <p class="meta">{{ page.date | date_to_string }}</p>
 
 <div class="post">
-  {{ content }}
+  <!---{{ content }}--->
+   {% include anchor_headings.html html=content %}
 </div>
 
 <div class="notes">
