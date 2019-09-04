@@ -1,12 +1,2 @@
 theme: jekyll-theme-midnight
 name: LifesFun's 101
-
-# Plugins
-plugins:
-  - jekyll-paginate
-
-
-# Pagination
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /:num/
