@@ -6,7 +6,7 @@ date: 2019-09-06
 
 This is the final level in Kioptrix Series. If you have completed all levels, you must've had as much fun as I did on this journey. 
 This machine was a bit different from the previous one, as it was FreeBSD. Low privilige challenges were a little different and required a little more enumeration in my opinion.
-Kioptrix Level 5 is vulnerable to Local File Inclusion aka Directory Traversal, Remote Code Execution and Kernel Exploit.
+Kioptrix Level 5 is vulnerable to Local File Inclusion aka Directory Traversal, Remote Code Execution and Kernel Privilige Escalation.
 
 **Vulnerable System**: Kioptrix 2014 (Level 5)
 ==============================================
