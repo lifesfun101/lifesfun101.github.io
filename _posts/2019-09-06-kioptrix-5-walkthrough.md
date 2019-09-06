@@ -140,10 +140,9 @@ Host is up (0.00045s latency).
 PORT     STATE  SERVICE VERSION
 22/tcp   closed ssh
 80/tcp   open   http    Apache httpd 2.2.21 ((FreeBSD) mod_ssl/2.2.21 OpenSSL/0.9.8q DAV/2 PHP/5.3.8)
-|_http-title: Site doesn't have a title (text/html).
+|_http-title: Site does not have a title (text/html).
 8080/tcp open   http    Apache httpd 2.2.21 ((FreeBSD) mod_ssl/2.2.21 OpenSSL/0.9.8q DAV/2 PHP/5.3.8)
 |_http-server-header: Apache/2.2.21 (FreeBSD) mod_ssl/2.2.21 OpenSSL/0.9.8q DAV/2 PHP/5.3.8
-
 MAC Address: 00:0C:29:B4:3D:77 (VMware)
 Device type: general purpose
 Running: FreeBSD 9.X|10.X
