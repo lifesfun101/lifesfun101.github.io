@@ -158,6 +158,8 @@ HOP RTT     ADDRESS
 ### Web Port Enumeration (Port 80)
 
 #### Nikto
+Discovering web application vulnerabilities.
+
 ```bash
 root@kali:~/vulnhub/kioptrix_5# nikto -h 192.168.20.148
 - Nikto v2.1.6
