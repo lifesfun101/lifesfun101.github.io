@@ -40,15 +40,15 @@ Kioptrix is a series of vulnerable machines hosted on Vulnhub. Each machine prov
 
 ## Methodology
 
-    * Host Discovery (arpscan)
-    * Port Scanning (nmap)
-    * Web Port Enumeration (nikto, gobuster)
-    * Discovered Apache mod\_ssl Vulnerability (nikto)
-    * Discovered Appropriate Exploit and Fixed the Exploit (searchsploit/exploit-db)
-    * Low Privilige Shell Gained
-    * Privilege Escalation Enumeration (uname, cat /etc/*-release)
-    * Discovered Appropriate Exploit - 'ptrace/kmod' Local Privilege Escalation (searchsploit/exploit-db)
-    * Compiled the Exploit and Gained Administrative Privileges
+   * Host Discovery (arpscan)
+   * Port Scanning (nmap)
+   * Web Port Enumeration (nikto, gobuster)
+   * Discovered Apache mod\_ssl Vulnerability (nikto)
+   * Discovered Appropriate Exploit and Fixed the Exploit (searchsploit/exploit-db)
+   * Low Privilige Shell Gained
+   * Privilege Escalation Enumeration (uname, cat /etc/*-release)
+   * Discovered Appropriate Exploit - 'ptrace/kmod' Local Privilege Escalation (searchsploit/exploit-db)
+   * Compiled the Exploit and Gained Administrative Privileges
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
