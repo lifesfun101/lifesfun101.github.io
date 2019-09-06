@@ -104,14 +104,14 @@ Discovering the vulnerable system.
 
 ```bash
 root@kali:~/vulnhub/kioptrix_5# netdiscover -r 192.168.20.0/24
-Currently scanning: Finished!   |   Screen View: Unique Hosts                                                          
-                                                                                                                        
- 3 Captured ARP Req/Rep packets, from 3 hosts.   Total size: 180                                                        
+Currently scanning: Finished!   |   Screen View: Unique Hosts
+
+ 3 Captured ARP Req/Rep packets, from 3 hosts.   Total size: 180              
  _____________________________________________________________________________
    IP            At MAC Address     Count     Len  MAC Vendor / Hostname      
  -----------------------------------------------------------------------------
- 192.168.20.1    00:50:56:c0:00:01      1      60  VMware, Inc.                                                         
- 192.168.20.148  00:0c:29:b4:3d:77      1      60  VMware, Inc.                                                         
+ 192.168.20.1    00:50:56:c0:00:01      1      60  VMware, Inc.
+ 192.168.20.148  00:0c:29:b4:3d:77      1      60  VMware, Inc.
  192.168.20.254  00:50:56:e2:32:bb      1      60  VMware, Inc.
 ```
 ### Nmap
