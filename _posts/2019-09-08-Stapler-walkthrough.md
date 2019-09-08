@@ -220,7 +220,7 @@ Create user list:
 
 ![](https://github.com/lifesfun101/Offensive-Security/blob/master/Walkthroughs/Stapler/Images/userlist.png?raw=true)
 
-## Hydra
+### Hydra
 Use hydra to bruteforce SSH.
 
 -e nsr option (try “n” null password, “s” login as pass and/or “r” reversed login):
