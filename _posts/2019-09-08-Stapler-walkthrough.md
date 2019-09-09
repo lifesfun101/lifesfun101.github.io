@@ -59,7 +59,7 @@ This system is vulnerable to Local File Inclusion vulnerability found in the Wor
 
 Discovering the vulnerable system with arp-scan -l:
 
-![arp_scan)](https://github.com/lifesfun101/Offensive-Security/blob/master/Walkthroughs/Stapler/Images/Lin%20Enum.png?raw=true)
+![arp_scan)](https://github.com/lifesfun101/Offensive-Security/blob/master/Walkthroughs/Stapler/Images/arpscan.png?raw=true)
 
 ### nmap
 
