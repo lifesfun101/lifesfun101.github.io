@@ -243,58 +243,58 @@ Logging in in with Zoe's credentials:
 
 Determining users with administrative privileges:
 
-![](https://github.com/lifesfun101/Offensive-Security/blob/master/Walkthroughs/Stapler/Images/admin_priv_user.png)
+![](https://github.com/lifesfun101/Offensive-Security/blob/master/Walkthroughs/Stapler/Images/admin_priv_user.png?raw=true)
 
 
 Determining readable files in home directory:
 
-![](https://github.com/lifesfun101/Offensive-Security/blob/master/Walkthroughs/Stapler/Images/readalbe_home1.png)
+![](https://github.com/lifesfun101/Offensive-Security/blob/master/Walkthroughs/Stapler/Images/readalbe_home1.png?raw=true)
 
 ---------------------------Snippet--------------------------
 
-![](https://github.com/lifesfun101/Offensive-Security/blob/master/Walkthroughs/Stapler/Images/readalbe_home2.png)
+![](https://github.com/lifesfun101/Offensive-Security/blob/master/Walkthroughs/Stapler/Images/readalbe_home2.png?raw=true)
 
 
 Enumerating JKanode&#39;s bash\_history file:
 
-![](https://github.com/lifesfun101/Offensive-Security/blob/master/Walkthroughs/Stapler/Images/jkanode_bash_history.png)
+![](https://github.com/lifesfun101/Offensive-Security/blob/master/Walkthroughs/Stapler/Images/jkanode_bash_history.png?raw=true)
 
 Alternatively:
 
-![](https://github.com/lifesfun101/Offensive-Security/blob/master/Walkthroughs/Stapler/Images/jkanode_bash_history2.png)
+![](https://github.com/lifesfun101/Offensive-Security/blob/master/Walkthroughs/Stapler/Images/jkanode_bash_history2.png?raw=true)
 
 
 ### Enumerating (Automated Way):
 
-LinEnum.sh, scripted by rebootuser, can be used to automate enumeration process. The script can be obtained from rebootuser&#39;s [GitHub](https://github.com/rebootuser/LinEnum/blob/master/LinEnum.sh).
+LinEnum.sh, scripted by rebootuser, can be used to automate enumeration process. The script can be obtained from rebootuser's [GitHub](https://github.com/rebootuser/LinEnum/blob/master/LinEnum.sh).
 
 Although automated scripts might seem as an easier way, sometimes one can get lost in abundance of information it provides. Personally, enumerating manually have helped me just as many times as automatic scripts. Automatic scripts are more for the low hanging fruit in my opinion.
 
 First the script has to be downloaded to the victim machine.
 
-![](https://github.com/lifesfun101/Offensive-Security/blob/master/Walkthroughs/Stapler/Images/Lin%20Enum.png)
+![](https://github.com/lifesfun101/Offensive-Security/blob/master/Walkthroughs/Stapler/Images/Lin%20Enum.png?raw=true)
 
 Once downloading and running it:
 
-![](https://github.com/lifesfun101/Offensive-Security/blob/master/Walkthroughs/Stapler/Images/Lin%20Enum2.png)
+![](https://github.com/lifesfun101/Offensive-Security/blob/master/Walkthroughs/Stapler/Images/Lin%20Enum2.png?raw=true)
 
 -------------------------------------------------------------Snippet-----------------------------------------------------------
 
-![](https://github.com/lifesfun101/Offensive-Security/blob/master/Walkthroughs/Stapler/Images/Lin%20Enum3.png)
+![](https://github.com/lifesfun101/Offensive-Security/blob/master/Walkthroughs/Stapler/Images/Lin%20Enum3.png?raw=true)
 
 -------------------------------------------------------------Snippet-----------------------------------------------------------
 
-![](https://github.com/lifesfun101/Offensive-Security/blob/master/Walkthroughs/Stapler/Images/Lin%20Enum4.png)
+![](https://github.com/lifesfun101/Offensive-Security/blob/master/Walkthroughs/Stapler/Images/Lin%20Enum4.png?raw=true)
 
 
 As per script's result it can be seen that "peter" is an admin user and that the possible password is JZQuyIN5.
 
 Logging into Peter's account and changing root's password:
 
-![](https://github.com/lifesfun101/Offensive-Security/blob/master/Walkthroughs/Stapler/Images/peter.png)
+![](https://github.com/lifesfun101/Offensive-Security/blob/master/Walkthroughs/Stapler/Images/peter.png?raw=true)
 
 
 Flag file:
 
-![](https://github.com/lifesfun101/Offensive-Security/blob/master/Walkthroughs/Stapler/Images/flag.png)
+![](https://github.com/lifesfun101/Offensive-Security/blob/master/Walkthroughs/Stapler/Images/flag.png?raw=true)
 
