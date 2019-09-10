@@ -102,7 +102,7 @@ Gobuster enumeration of port 80:
 
  ![](https://github.com/lifesfun101/Offensive-Security/blob/master/Walkthroughs/Symfonos:%202/Images/browser.png?raw=true)
 
-## SMB Enumeartion (smbclient) 
+### SMB Enumeartion (smbclient) 
 
 SMB enumeration for accessible shares found anonymous share:
 
@@ -118,7 +118,7 @@ The file consisted of a couple of configuration files: smb.conf and proftpd.conf
 
  ![](https://github.com/lifesfun101/Offensive-Security/blob/master/Walkthroughs/Symfonos:%202/Images/file1.png?raw=true)
 
-## FTP
+### FTP
 
 Proftpd.conf file provided us with 2 usersnames: anonymous(ftp) and Aeolus.
 
