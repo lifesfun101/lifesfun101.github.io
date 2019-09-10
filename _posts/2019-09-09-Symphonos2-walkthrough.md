@@ -72,11 +72,6 @@ This system is vulnerable to poorly configured SMB share, LibreNMS addhost Comma
 
 ## Reconnaissance 
 
-### Host Discovery (arp-scan)
-arp-scan -l:
-
-![](https://github.com/lifesfun101/Offensive-Security/blob/master/Walkthroughs/Symfonos:%202/Images/arp-scan.png?raw=true)
-
 ### Port Scanning(Nmap)
 
 All ports scan:
