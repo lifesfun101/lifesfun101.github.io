@@ -258,7 +258,7 @@ Once all the options are set, it's ready to be exploited:
 
  ![](https://github.com/lifesfun101/Offensive-Security/blob/master/Walkthroughs/Symfonos:%202/Images/msf_run_exploit.png?raw=true)
 
-## Second Low Privilege Shell Enumeration
+### Second Low Privilege Shell Enumeration
 
 This time around the low privilege shell was obtained for user cronus and python -c "import pty;pty.spawn('/bin/bash')" command was used to escape the default shell.
 
@@ -268,7 +268,7 @@ Sudo -l can be used to check if this user has any sudo privileges:
 
  ![](https://github.com/lifesfun101/Offensive-Security/blob/master/Walkthroughs/Symfonos:%202/Images/sudo_l.png?raw=true)
 
-## Root
+## Privilige Escalation
 
 As can be seen on the screenshot above, user cronus can execute /usr/bin/mysql with administrative privileges.
 
