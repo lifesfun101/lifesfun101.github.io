@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Symphonos2"
+title: "Symphonos2 Walkthrough"
 date: 2019-09-09
 ---
 
