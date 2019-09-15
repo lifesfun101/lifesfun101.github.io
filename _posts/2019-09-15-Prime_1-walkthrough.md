@@ -78,8 +78,9 @@ Methodology
 *	Privilege Escalation Enumeration (sudo -l)
 *	Exploited binary with SUID bit by impersonating the file (cp /bin/bash /tmp/challenge)
 
-Host Discovery (Netdiscover)
-----------------------------
+## Reconnaissance
+
+### Host Discovery (Netdiscover)
 
 Host discovery.
 ```bash
@@ -105,8 +106,8 @@ MAC Address: 00:0C:29:2C:25:11 (VMware)
 
 ```
 
-Port Scannning (Nmap)
----------------------
+### Port Scannning (Nmap)
+
 
 Nmap all ports scan.
 
@@ -153,10 +154,10 @@ HOP RTT     ADDRESS
 1   0.68 ms 192.168.20.149
 ```
 
-Web Port Enumeration (Port 80)
-------------------------------
+### Web Port Enumeration (Port 80)
 
-### Nikto
+
+#### Nikto
 
 Web Application Vulnerability Assessment
 
@@ -185,7 +186,7 @@ Apache 2.2.34 is the EOL for the 2.x branch.
 + 1 host(s) tested
 ```
 
-### GoBuster
+#### GoBuster
 
 Scanning the webserver for hidden directories.
 ```
@@ -246,7 +247,7 @@ by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
 /wordpress (Status: 301)
 ===============================================================
 ```
-### Browser
+#### Browser
 
 Enumerating /dev directory
 
@@ -268,7 +269,7 @@ tool.
 
 ![](media/c5098089b44f2632e0c08dd71f770612.png)
 
-### wfuzz
+#### wfuzz
 
 Bruteforcing index.php with wfuzz.
 ```
@@ -322,7 +323,7 @@ ID           Response   Lines    Word     Chars       Payload
 000000340:   200        7 L      19 W     206 Ch      "file"                               
 ```
 
-### Browser (Further enumeration)
+#### Browser (Further enumeration)
 
 Now that the fuzzing parameter file is known, browser can be used to enumerate
 it.
@@ -332,7 +333,7 @@ it.
 Here is another hint, secrettier360 parameter should be used on another php
 page.
 
-### Gobuster (Enumeration for Additional PHP Pages)
+#### Gobuster (Enumeration for Additional PHP Pages)
 ```
 root@kali:~# gobuster dir -u http://192.168.20.149/ -w /usr/share/wordlists/dirb/common.txt -x .php
 ===============================================================
@@ -367,7 +368,7 @@ by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
 
 From the output above, another php page brings attention: Image.php
 
-### Wfuzz (Further enumeration)
+#### Wfuzz (Further enumeration)
 ```
 root@kali:~# wfuzz -c -w /usr/share/wfuzz/wordlist/general/common.txt --hc 404 http://192.168.20.149/image.php?secrettier360=FUZZ
 ********************************************************
@@ -412,11 +413,11 @@ ID           Response   Lines    Word     Chars       Payload
 000000256:   200        13 L     43 W     328 Ch      "dev"         
 ```
 
-### Browser (The Right Parameter)
+#### Browser (The Right Parameter)
 
 ![](https://github.com/lifesfun101/Offensive-Security/blob/master/Walkthroughs/Prime%20Level%201/Images/d98830f11a4d6c5dc4c114621eaf46bf.png?raw=true)
 
-### Curl
+#### Curl
 
 Next curl can be used to test for Local File Inclusion.
 
@@ -486,7 +487,7 @@ finaly you got the right parameter<br><br><br><br>follow_the_ippsec
 Follow_the_ippsec is the contents of password.txt file.
 ```
 
-### Browser (WordPress Admin’s Panel)
+#### Browser (WordPress Admin’s Panel)
 
 The password did not work for user victor and saket when tried with SSH.
 However, it did work for the WordPress site’s administrator’s panel.
