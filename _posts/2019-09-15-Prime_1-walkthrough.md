@@ -539,8 +539,8 @@ uid=33(www-data) gid=33(www-data) groups=33(www-data)
 /bin/sh: 0: can't access tty; job control turned off
 ```
 
-## Privilege Escalation
-
+Privilege Escalation
+--------------------
 
 Once the low privilege shell is obtained it needs to be upgraded to a TTY shell,
 so commands such as su can be used. This is achieved with the following python
