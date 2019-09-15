@@ -34,6 +34,7 @@ Maintain whitelist of files that may be accessed by the web page/application and
 **Severity**: **Medium**
 
 ---------------------------------------------------------------------------------------------------------------------------------------
+
 **Vulnerability Exploited**: Remote Code Execution (Writable PHP script in WordPress)
 
 **Exploit Used**: N/A
@@ -45,7 +46,9 @@ Maintain whitelist of files that may be accessed by the web page/application and
 **Vulnerability fix**: Employ strong file permissions as per principal of the least privilege. Write access should be prohibitted when it comes to PHP scripts
 
 **Severity**: **Medium**
+
 ---------------------------------------------------------------------------------------------------------------------------------------
+
 **Privilege Escalation Vulnerability**: Binary executable with SUID bits
 
 **Exploit Used**: N/A
