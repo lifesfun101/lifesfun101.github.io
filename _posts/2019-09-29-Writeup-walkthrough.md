@@ -517,7 +517,7 @@ bash: cannot set terminal process group (2683): Inappropriate ioctl for device
 bash: no job control in this shell
 ```
 
-###Root Flag
+### Root Flag
 
 ```
 root\@writeup:/\# cd /root
