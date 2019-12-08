@@ -157,11 +157,11 @@ Nmap done: 1 IP address (1 host up) scanned in 21.16 seconds
 
 Writeup directory:
 
-![](media/74f8f6fc0a451a5a165f626bcb6c14dc.png)
+![](https://github.com/lifesfun101/Offensive-Security/blob/master/Walkthroughs/WriteUp_walkthrough/images/74f8f6fc0a451a5a165f626bcb6c14dc.png?raw=true)
 
 Discovering software running on the backend in writeup directory source code:
 
-![](media/19c5660cc43678a099ef9cc114bac88a.png)
+![](https://github.com/lifesfun101/Offensive-Security/blob/master/Walkthroughs/WriteUp_walkthrough/images/19c5660cc43678a099ef9cc114bac88a.png?raw=true)
 
 Low Privilege Exploitation
 --------------------------
