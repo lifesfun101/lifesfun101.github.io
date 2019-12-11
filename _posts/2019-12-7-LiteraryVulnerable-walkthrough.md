@@ -1,15 +1,19 @@
 ---
 layout: post
-title: "LiteraryVulnerable Walkthrough"
+title: "LiterallyVulnerable Walkthrough"
 date: 2019-12-10
 ---
 
-**Vulnerable System**: Literary Vulnerable
+LiterallyVulnerable is yet another CTF-style box from VulnHub which calls for enumeration and code injection. Rated easy and so it was.
+
+**Vulnerable System**: LiterallyVulnerable
 ==========================================
 
 **Operating System**: Ubuntu 18.04.3
 
 **Kernel**: 4.15
+
+**Vulnerabilities**: Weak WordPress file permissions, code injection
 
 Methodology
 -----------
