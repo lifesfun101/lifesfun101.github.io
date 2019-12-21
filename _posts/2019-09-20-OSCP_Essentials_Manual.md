@@ -85,6 +85,8 @@ Vulnhub: Provides OSCP like virtual machines for download and practice - https:/
    *   [Prime: 1](https://www.vulnhub.com/entry/prime-1,358/) --- walkthrough can be found [here](https://lifesfun101.github.io/2019/09/15/Prime_1-walkthrough.html)
    
    *   [symfonos: 2](https://www.vulnhub.com/entry/symfonos-2,331/)   --- walkthrough can be found [here](https://lifesfun101.github.io/2019/09/09/Symphonos2-walkthrough.html)
+   
+   *   [Me and My Girlfriend](https://www.vulnhub.com/entry/me-and-my-girlfriend-1,409/) --- walkthrough can be found [here](https://lifesfun101.github.io/2019/12/21/Me-and-My-Girlfriend-walkthrough.html)
                                    
 
 OWASP Vulnerable Web Applications: Numerous links for vulnerabale web application to practice on, both online and offline: [OWASP Vulnerable App](https://www.owasp.org/index.php/OWASP_Vulnerable_Web_Applications_Directory_Project)
