@@ -4,7 +4,7 @@ title: "Me and My Girlfriend Walkthrough"
 date: 2019-12-21
 ---
 
-Me and My Girlfriend is a beginner level VM created by TW1C3 on vulnhub. It is truly beginner friendly but fun at the same time. I think this is a good beggining point for some of the people studying for OSCP.
+Me and My Girlfriend is a beginner level VM created by TW1C3 on vulnhub. It is truly beginner friendly but fun at the same time. One gets to practice enumeration, web application vulnerabilities and simple privilege escalation. I think this is a good beggining point for some of the people studying for OSCP.
 
 **Vulnerable System**: Me and My Girlfriend
 ===========================================
