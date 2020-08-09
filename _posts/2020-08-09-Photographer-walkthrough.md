@@ -106,8 +106,8 @@ MAC Address: 00:0C:29:E3:D9:6D (VMware)
 
 A focused scan of the found ports reveals that there are 2 different web
 ports and two SMB related ports. It can be seen that SMB is accessible by guest
-user, meaning it can be accessed without credentials. Another interesting thing
-to note from the scan above is application version running on port 8000 - Koken
+user, meaning it can be accessed without credentials. Another interesting finding
+to note from the scan above is the application version running on port 8000 - Koken
 0.22.24.
 
 ```
