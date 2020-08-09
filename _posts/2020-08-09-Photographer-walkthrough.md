@@ -123,7 +123,8 @@ PORT     STATE SERVICE      VERSION
 |_http-title: daisa ahomi
 MAC Address: 00:0C:29:E3:D9:6D (VMware)
 Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
-Aggressive OS guesses: Linux 2.6.32 (96%), Linux 3.2 - 4.9 (96%), Linux 2.6.32 - 3.10 (96%), Linux 3.4 - 3.10 (95%), Linux 3.1 (95%), Linux 3.2 (95%), AXIS 210A or 211 Network Camera (Linux 2.6.17) (94%), Synology DiskStation Manager 5.2-5644 (94%), Netgear RAIDiator 4.2.28 (94%), Linux 2.6.32 - 2.6.35 (94%)
+Aggressive OS guesses: Linux 2.6.32 (96%), Linux 3.2 - 4.9 (96%), Linux 2.6.32 - 3.10 (96%), Linux 3.4 - 3.10 (95%), Linux 3.1 (95%), Linux 3.2 (95%), 
+AXIS 210A or 211 Network Camera (Linux 2.6.17) (94%), Synology DiskStation Manager 5.2-5644 (94%), Netgear RAIDiator 4.2.28 (94%), Linux 2.6.32 - 2.6.35 (94%)
 No exact OS matches for host (test conditions non-ideal).
 Network Distance: 1 hop
 Service Info: Host: PHOTOGRAPHER
@@ -244,11 +245,11 @@ software, and it turns out there is a file upload exploit.
 
 ```
 searchsploit Koken 0.22.24
-------------------------------------------------------------------------- ---------------------------------
+------------------------------------------------------------------------- ---------------------------
  Exploit Title                                                           |  Path
-------------------------------------------------------------------------- ---------------------------------
+------------------------------------------------------------------------- ---------------------------
 Koken CMS 0.22.24 - Arbitrary File Upload (Authenticated)                | php/webapps/48706.txt
-------------------------------------------------------------------------- ---------------------------------
+------------------------------------------------------------------------- ---------------------------
 Shellcodes: No Results
 Papers: No Results
 ```
@@ -277,7 +278,8 @@ cat /usr/share/exploitdb/exploits/php/webapps/48706.txt
 # Tested on: Linux
 # PoC: https://github.com/V1n1v131r4/Bypass-File-Upload-on-Koken-CMS/blob/master/README.md
 
-The Koken CMS upload restrictions are based on a list of allowed file extensions (withelist), which facilitates bypass through the handling of the HTTP request via Burp.
+The Koken CMS upload restrictions are based on a list of allowed file extensions (withelist), 
+which facilitates bypass through the handling of the HTTP request via Burp.
 
 Steps to exploit:
 
