@@ -4,7 +4,7 @@ title: "Photographer Walkthrough"
 date: 2020-08-09
 ---
 
-Photographer is an intentionally vulnerable machine created by v1n1v131r4 to prepare fellow hackers for OSCP certification.
+Photographer is an intentionally vulnerable machine created by v1n1v131r4 to prepare fellow hackers for OSCP certification, which could be obtained from Vulnhub.
 This machine lets user practice enumeration of SMB shares and web services, while finding password hints to get into a vulnerable web application and practising RCE via arbitrary file upload.
 Lastly, privilege escalation method lets the user practice enumeration of SUID binaries and using the binary to obtain root level privileges.
 
