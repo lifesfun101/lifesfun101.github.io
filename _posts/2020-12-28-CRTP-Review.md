@@ -4,6 +4,8 @@ title: "CRTP Exam/Course Review"
 date: 2020-12-28
 ---
 
+A little bit about my experience with Attacking & Defending Active Directory course and Certified Red Team Professional (CRTP) exam.
+
 CRTP Exam/Course Review
 =======================
 
