@@ -45,13 +45,15 @@ One goal I wanted to accomplish, but failed to squeeze it's full potential was l
 I ended up only using Covenant on 1/4 of the windows machines (as I did not want to pay for more time than I had to) then I got fed up and just resorted back to MSF/nc. 
 
 **The Good**
+
 I am not into CTF challenges, but ippsec did an AMAZING job at his challenge. Although I did lose my patience with it couple of times, at the end I totally loved the approach and the methods.
 
 **The Bad**
+
 As much of an amazing experience that Offshore was, there was a box where you either had to write a script to automate the process or you would be stuck in a robot loop attempting to exploit it. The exploit chance for that box was about 1/50, as i discussed it with numerous users.
 However, I am not the biggest fans of CTFs as I mentioned above and I don't think I would have time to exploit this type of box on a regular assessment, therefore I really did not like it. However, to each their own right?
 
-Overall, it took me just over 2 months to finish the box and I think that's what the timing would be for most people with full time jobs and other life responsibilities.
+It took me just over 2 months to finish the box and I think that's what the timing would be for most people with full time jobs and other life responsibilities.
 
 Summary
 -------
