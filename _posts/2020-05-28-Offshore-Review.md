@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hack-the-Box Pro Labs: Offshore Review"
-date: 2020-5-28
+date: 2020-05-28
 ---
 
 Depositing my 2 cents into the Offshore Account.
