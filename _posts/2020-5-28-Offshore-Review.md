@@ -16,7 +16,7 @@ This review has been long over due, as I finished the lab about a month and a ha
 but between work, life and these crazy times it actually took me longer than expected to get to writing this.
 At the end of 2020, I have finished CRTP course and spent a couple of months without doing any courses or labs but rather going over my notes and solidifying what I have learned in the course.
 However, came 2021 and I realized I have not done any infrastructure assessment for a while (Life threw more and more web application tests at me). 
-So I got a bit of an itch for another infrastructure environment to pwn and to further employ the skills/knowledge that I have obtained during CRTP. 
+So, I got a bit of an itch for another infrastructure environment to pwn and to further employ the skills/knowledge that I have obtained during CRTP. 
 I then headed to HTB and looked over the pro-labs that they had to offer. 
 I ended up putting my finger on Offshore as I have read about and heard of it being a pretty real-life "corporate" environment. Hack The Box also rates Offshore as intermediate lab.
 By having prior OSCP and CRTP Experience, doing some vulnhub/HTB boxes here and there and being a fulltime pentester, I believed I had enough to knowledge for this lab not to be too challenging (and it was not).
@@ -28,13 +28,13 @@ Lab Environment
 
 **Overall**
 
-The lab environment in my opinion is very well set up, from DMZ all the way to the last subnet/domain. Also, I found on US side of the labs it's much less busier than on EU side. Less people access US lab so that environment is much more enjoyable. I only ran into remnants of other players twice I think. 
+The lab environment in my opinion is very well set up, from DMZ all the way to the last subnet/domain. Also, I found on US side of the labs it's much less busy than on EU side. Less people access US lab so that environment is much more enjoyable. I only ran into remnants of other players twice, I think. 
 As HTB mentions "Offshore Pro Lab has been designed to appeal to a wide variety of users, everyone from junior-level penetration testers to seasoned cybersecurity professionals as well as infosec hobbyists and even blue teamers; there is something for everyone."
 I think that description does truly caption the essense of the lab. The lab started with getting access to a pivoting machine, which opens the door to the first domain. From my OSCP times, I was personally very used to proxychains in order to reach "inside" targets.
 However, I wanted to explore other options and ended up learning to work with sshuttle and chisel, which in my opion are great tools and alternatives to proxychains when it comes to pivoting.
 
 The lab seemed quite linear for the most part, as in you break into one system and find something there for the next, although there were a few "odd challenges" which did not relate to the linear path at all.
-As usual enumeration is key, but exprience obtained from previous assessments/labs/certificates is also key; along with some patience and research of course.
+As usual enumeration is key, but experience obtained from previous assessments/labs/certificates is also key; along with some patience and research of course.
 Safe to say a lot of what I've learned during CRTP came in very handy during Offshore, most of the AD related misconfiguration and weaknesses were pretty familiar and made it a breeze to go through.
 Some examples of these: user privileges, trust-boundaries, sensitive domain groups.
 When it came to Linux boxes, I think they were pretty OSCP style, although some of them had really, really cool challenges.
