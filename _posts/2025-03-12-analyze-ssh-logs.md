@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Pentest Primer: Are Hackers Targeting You? Analyze SSH Logs Like a Pro!"
+title: "Pentest Primer: Bash Scripting Basics Part 2 - SSH Log Analysis"
 date: 2025-03-12
 ---
 

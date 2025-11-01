@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Pentest Primer: Nmap Basics: Discover and Secure Open Ports"
+title: "Pentest Primer: Network Ports Demo"
 date: 2024-12-17
 ---
 

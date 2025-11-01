@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Pentest Primer: A Beginner's Guide to Ports in Networking"
+title: "Pentest Primer: Networking Ports"
 date: 2024-12-06
 ---
 

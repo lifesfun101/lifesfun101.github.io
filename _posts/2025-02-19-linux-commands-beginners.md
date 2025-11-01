@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Pentest Primer: Learn Best Linux Commands for Beginners Now"
+title: "Pentest Primer: Bash Scripting Basics"
 date: 2025-02-19
 ---
 

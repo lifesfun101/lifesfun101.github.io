@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Pentest Primer: Wireshark Made Easy: Strengthen Your Cybersecurity Now!"
+title: "Pentest Primer: Networking Protocols Practical Demo"
 date: 2024-12-01
 ---
 
