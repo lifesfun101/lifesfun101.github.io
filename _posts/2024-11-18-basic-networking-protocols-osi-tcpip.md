@@ -4,11 +4,11 @@ title: "Pentest Primer: Basic Networking: Protocols and OSI, TCP/IP Models"
 date: 2024-11-18
 ---
 
-{% include youtube.html id="QfsMHCqb8Y4" %}
-
 Understanding networking protocols is like knowing the language of the internet. Protocols are what allow devices to communicate effectively across networks, and understanding them is essential for anyone pursuing cybersecurity or penetration testing.
 
 Think of protocols as the road signs or guidelines that dictate how data should travel from one point to another. Without standardized protocols, devices from different manufacturers and running different operating systems would be unable to communicate, making the internet as we know it impossible.
+
+{% include youtube.html id="QfsMHCqb8Y4" %}
 
 What are Networking Protocols?
 ---

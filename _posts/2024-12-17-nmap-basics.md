@@ -4,11 +4,11 @@ title: "Pentest Primer: Nmap Basics: Discover and Secure Open Ports"
 date: 2024-12-17
 ---
 
-{% include youtube.html id="7DX066GCaLs" %}
-
 This lesson covers the foundational concepts of port security and introduces Nmap, one of the most essential tools in penetration testing and network security.
 
 We'll explore how ports function as transport layer endpoints, the importance of port filtering and access control, and the risks posed by unsecured open ports. Following the theory, we'll transition to a hands-on demonstration using Nmap to identify and analyze open ports on Metasploitable 2, a purposefully vulnerable system designed for practicing penetration testing techniques.
+
+{% include youtube.html id="7DX066GCaLs" %}
 
 Understanding Port Security Fundamentals
 ---

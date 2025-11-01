@@ -4,11 +4,11 @@ title: "Create AWS VPC Using Terraform | Easy Step-By-Step Guide"
 date: 2024-10-07
 ---
 
-{% include youtube.html id="w69L1AKa9zQ" %}
-
 This hands-on lab will walk you through how to set up a Virtual Private Cloud (VPC) on AWS using Terraform.
 
 A Virtual Private Cloud is a foundational component for building your cloud infrastructure on AWS. VPCs provide network isolation, security, and control over your cloud resources. By the end of this tutorial, you'll be able to create a secure and scalable VPC with public and private subnets, an Internet Gateway, and a NAT Gateway.
+
+{% include youtube.html id="w69L1AKa9zQ" %}
 
 What is an AWS VPC?
 ---

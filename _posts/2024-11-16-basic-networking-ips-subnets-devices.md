@@ -4,11 +4,11 @@ title: "Pentest Primer: Basic Networking Concepts: IPs, Subnets & Devices"
 date: 2024-11-16
 ---
 
-{% include youtube.html id="WdqiOAg0tGk" %}
-
 This guide explores the fundamentals of networking with a particular emphasis on its role in ethical hacking and cybersecurity. Whether you're new to networking or looking to strengthen your foundation, this tutorial covers the essential concepts without overwhelming technical complexity.
 
 Understanding networking is crucial for anyone pursuing a career in cybersecurity or penetration testing. Networks form the backbone of modern computing, and security professionals must understand how devices communicate to effectively identify and exploit vulnerabilities.
+
+{% include youtube.html id="WdqiOAg0tGk" %}
 
 What is Networking?
 ---

@@ -4,13 +4,13 @@ title: "Pentest Primer: Wireshark Made Easy: Strengthen Your Cybersecurity Now!"
 date: 2024-12-01
 ---
 
-{% include youtube.html id="robk-uS1jNM" %}
-
 Welcome to this hands-on demonstration where we dive into essential network protocols and their practical applications in ethical hacking using Wireshark and command-line utilities.
 
 Networking is the backbone of the internet, and understanding how protocols like TCP, UDP, HTTP, HTTPS, DNS, ICMP, and SSH work is critical for anyone stepping into the world of cybersecurity and penetration testing. These protocols dictate how devices communicate, share information, and secure data across networks.
 
 In this lesson, we explore not only how these protocols function theoretically but also demonstrate their behavior using real-world tools. By the end of this session, you'll see how these protocols are leveraged in everyday network communication and, more importantly, how they're applied in ethical hacking scenarios.
+
+{% include youtube.html id="robk-uS1jNM" %}
 
 What is Wireshark?
 ---

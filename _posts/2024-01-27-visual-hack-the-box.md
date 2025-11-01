@@ -4,11 +4,11 @@ title: "Visual - Hack The Box"
 date: 2024-01-27
 ---
 
-{% include youtube.html id="V5lMuqxCTYw" %}
-
 This walkthrough covers Visual, a Hack The Box machine that involves exploiting a .NET C# project build process, achieving code execution through Visual Studio build events, and performing privilege escalation using service exploitation and potato-based privilege escalation techniques.
 
 Visual presents a unique attack scenario that demonstrates how development tools and build processes can be weaponized to achieve remote code execution. This machine provides valuable experience with Windows exploitation techniques and emphasizes the security implications of automated build systems.
+
+{% include youtube.html id="V5lMuqxCTYw" %}
 
 Web Application Enumeration
 ---

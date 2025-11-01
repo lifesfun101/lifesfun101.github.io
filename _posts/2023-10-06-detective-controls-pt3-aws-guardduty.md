@@ -4,11 +4,11 @@ title: "Detective Control Part 3 - AWS GuardDuty [Terraform]"
 date: 2023-10-06
 ---
 
-{% include youtube.html id="pKuDpeLFxtI" %}
-
 This hands-on lab will walk you through how to set up AWS GuardDuty using Terraform.
 
 AWS GuardDuty is a fully managed threat detection service that continuously monitors your AWS environment for malicious activity and unauthorized behavior. It analyzes data from various AWS sources using machine learning and threat intelligence to identify security threats. GuardDuty generates detailed findings, categorized by severity, to help you quickly respond to potential security incidents, enhance your AWS security posture, and ensure compliance with security best practices.
+
+{% include youtube.html id="pKuDpeLFxtI" %}
 
 What is AWS GuardDuty?
 ---

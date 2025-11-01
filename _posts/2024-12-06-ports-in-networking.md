@@ -4,11 +4,11 @@ title: "Pentest Primer: A Beginner's Guide to Ports in Networking"
 date: 2024-12-06
 ---
 
-{% include youtube.html id="OUIqmpzBVZE" %}
-
 Ports in computer networking are critical to facilitating efficient data exchange within networks, enabling communication between devices via specific channels. Understanding ports is fundamental for anyone pursuing cybersecurity or penetration testing.
 
 Think of IP addresses as street addresses for buildings, and ports as specific apartment numbers within those buildings. While the IP address gets network traffic to the right device, the port number directs that traffic to the correct application or service running on that device.
+
+{% include youtube.html id="OUIqmpzBVZE" %}
 
 Understanding Ports
 ---

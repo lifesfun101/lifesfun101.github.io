@@ -4,11 +4,11 @@ title: "Bizness - Hack The Box"
 date: 2024-06-05
 ---
 
-{% include youtube.html id="O8-cyFIzcI8" %}
-
 This walkthrough covers Bizness, a Hack The Box machine that demonstrates exploitation of Apache OFBiz authentication bypass vulnerabilities (CVE-2023-49070 and CVE-2023-51467), Derby database enumeration, and privilege escalation through credential recovery.
 
 Bizness showcases real-world exploitation of enterprise resource planning (ERP) software vulnerabilities and reinforces the importance of patching critical CVEs in business-critical applications. This machine provides hands-on experience with modern web application vulnerabilities and database forensics.
+
+{% include youtube.html id="O8-cyFIzcI8" %}
 
 Web Application Enumeration
 ---

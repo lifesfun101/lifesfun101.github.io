@@ -4,11 +4,11 @@ title: "Pentest Primer: Learn Best Linux Commands for Beginners Now"
 date: 2025-02-19
 ---
 
-{% include youtube.html id="gT_m7Vnli-w" %}
-
 This lesson introduces essential Linux commands and scripting fundamentals crucial for penetration testing and cybersecurity work.
 
 Scripting refers to the creation and execution of sequences of commands or instructions to perform specific tasks. In penetration testing, scripting empowers testers to automate various procedures, interact with systems, and analyze data efficiently. It encompasses a wide array of languages and tools tailored to address different aspects of security testing.
+
+{% include youtube.html id="gT_m7Vnli-w" %}
 
 Why Scripting Still Matters in the AI Era
 ---

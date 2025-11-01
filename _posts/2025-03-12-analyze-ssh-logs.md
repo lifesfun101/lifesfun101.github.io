@@ -4,11 +4,11 @@ title: "Pentest Primer: Are Hackers Targeting You? Analyze SSH Logs Like a Pro!"
 date: 2025-03-12
 ---
 
-{% include youtube.html id="C406yf-AVaE" %}
-
 Discover how to transform raw log data into actionable security insights using powerful Linux command-line tools. This lesson demonstrates how to identify potential cyber threats by analyzing SSH log files for suspicious activities and failed login attempts.
 
 SSH (Secure Shell) is one of the most common attack vectors for systems exposed to the internet. Understanding how to analyze SSH logs effectively is crucial for detecting brute-force attacks, password spraying, and other malicious authentication attempts.
+
+{% include youtube.html id="C406yf-AVaE" %}
 
 Why SSH Log Analysis Matters
 ---

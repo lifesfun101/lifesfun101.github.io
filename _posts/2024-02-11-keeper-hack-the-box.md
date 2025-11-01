@@ -4,11 +4,11 @@ title: "Keeper - Hack The Box"
 date: 2024-02-11
 ---
 
-{% include youtube.html id="b7B4b2jotiw" %}
-
 This walkthrough covers Keeper, an easy-level machine from Hack The Box that demonstrates the exploitation of default credentials, a recent KeePass vulnerability (CVE-2023-32784), and PuTTY key-based privilege escalation.
 
 Keeper provides an excellent learning opportunity for understanding how default credentials, password manager vulnerabilities, and SSH key misconfigurations can be combined to compromise a system. This machine emphasizes the importance of changing default credentials and staying updated on recent security vulnerabilities.
+
+{% include youtube.html id="b7B4b2jotiw" %}
 
 Web Application Enumeration
 ---

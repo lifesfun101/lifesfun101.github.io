@@ -4,11 +4,11 @@ title: "Build a WordPress Site on AWS: Step-by-Step Terraform Guide"
 date: 2024-11-01
 ---
 
-{% include youtube.html id="peOgOMP3sGA" %}
-
 This hands-on lab will walk you through how to set up infrastructure for a WordPress installation on AWS using Terraform.
 
 Building on the VPC foundation from the previous tutorial, this guide demonstrates how to deploy a real-world application using Amazon EC2 for web hosting and Amazon RDS for database management. This is an excellent hands-on project that shows how you can use Terraform to automate the deployment of cloud resources for production applications.
+
+{% include youtube.html id="peOgOMP3sGA" %}
 
 What is WordPress?
 ---

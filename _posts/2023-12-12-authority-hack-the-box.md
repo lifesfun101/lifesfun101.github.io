@@ -4,11 +4,11 @@ title: "Authority - Hack The Box"
 date: 2023-12-12
 ---
 
-{% include youtube.html id="5xf1hZ2p_kg" %}
-
 This walkthrough covers Authority, a medium-level Windows machine from Hack The Box that involves SMB information disclosure, hash cracking, LDAP clear text credentials, and exploiting a configured Active Directory Certificate Authority.
 
 Authority presents a realistic Active Directory environment that requires a combination of enumeration skills, credential harvesting, and knowledge of certificate-based authentication vulnerabilities. This machine is an excellent opportunity to practice Windows pentesting techniques and understand common misconfigurations in enterprise environments.
+
+{% include youtube.html id="5xf1hZ2p_kg" %}
 
 Initial Enumeration
 ---

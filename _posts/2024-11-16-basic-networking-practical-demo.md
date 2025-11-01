@@ -4,11 +4,11 @@ title: "Pentest Primer: Basic Networking Concepts: Practical Demo"
 date: 2024-11-16
 ---
 
-{% include youtube.html id="dzVRmGAlvCg" %}
-
 This hands-on demonstration showcases the practical application of networking concepts covered in the previous lesson, including IP addresses, network interfaces, subnets, default gateways, and ARP tables.
 
 Understanding networking theory is important, but seeing these concepts in action helps solidify the knowledge and provides practical skills necessary for penetration testing and network security assessments. This demo walks through essential commands that every cybersecurity professional should know.
+
+{% include youtube.html id="dzVRmGAlvCg" %}
 
 Viewing Network Interfaces
 ---

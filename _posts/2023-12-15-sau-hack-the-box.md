@@ -4,11 +4,11 @@ title: "Sau - Hack The Box"
 date: 2023-12-15
 ---
 
-{% include youtube.html id="pQBR_WEkEFY" %}
-
 This walkthrough covers Sau, a Hack The Box machine that demonstrates Server-Side Request Forgery (SSRF) vulnerabilities and privilege escalation techniques.
 
 Sau provides an excellent learning opportunity for understanding how SSRF vulnerabilities can be exploited to access internal services and achieve remote code execution. This machine emphasizes the importance of proper input validation and network segmentation in web applications.
+
+{% include youtube.html id="pQBR_WEkEFY" %}
 
 Web Application Enumeration
 ---

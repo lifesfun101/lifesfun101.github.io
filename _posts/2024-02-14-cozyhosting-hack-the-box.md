@@ -4,11 +4,11 @@ title: "CozyHosting - Hack The Box"
 date: 2024-02-14
 ---
 
-{% include youtube.html id="UCtsUbK9URo" %}
-
 This walkthrough covers CozyHosting, a Hack The Box machine that involves web application enumeration, exploiting Apache OFBiz authentication bypass vulnerabilities, database enumeration, hash cracking, and Linux privilege escalation.
 
 CozyHosting demonstrates the exploitation of recent vulnerabilities in enterprise software and emphasizes the importance of thorough enumeration in both web applications and backend databases. This machine provides valuable experience with real-world CVE exploitation and credential harvesting techniques.
+
+{% include youtube.html id="UCtsUbK9URo" %}
 
 Web Application Enumeration
 ---
