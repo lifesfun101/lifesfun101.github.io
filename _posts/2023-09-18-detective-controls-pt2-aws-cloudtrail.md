@@ -4,6 +4,8 @@ title: "Detective Control Part 2 - AWS CloudTrail [Terraform]"
 date: 2023-09-18
 ---
 
+{% include youtube.html id="Ln8CQco-FyQ" %}
+
 This hands-on lab will walk you through how to set up AWS CloudTrail using Terraform.
 
 AWS CloudTrail is a service that allows you to record and monitor API activity within your AWS account performed by users, roles, and services. This includes activities executed in the console, by CLI, or via SDKs. By capturing every API call and interaction across various AWS services, CloudTrail empowers you with a detailed record of actions taken within your AWS environment.
@@ -35,5 +37,3 @@ AWS CloudTrail offers several powerful capabilities that make it an essential de
 Why Use CloudTrail?
 ---
 From small-scale projects to large infrastructures, AWS CloudTrail provides essential information to help you manage your AWS resources with confidence and maintain a secure and compliant cloud environment. It serves as a critical component in your security posture by providing the visibility needed to detect and respond to potential security incidents.
-
-{% include youtube.html id="Ln8CQco-FyQ" %}

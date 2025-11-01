@@ -4,6 +4,8 @@ title: "Manager - Hack The Box"
 date: 2024-03-28
 ---
 
+{% include youtube.html id="8cTPzczgNa8" %}
+
 This walkthrough covers Manager, a Hack The Box machine that demonstrates Active Directory enumeration, password spraying attacks, and exploitation of Active Directory Certificate Services using the ESC7 privilege escalation technique.
 
 Manager provides comprehensive experience with Windows Active Directory penetration testing, from initial reconnaissance through privilege escalation. This machine emphasizes the importance of thorough enumeration and understanding certificate-based authentication vulnerabilities in enterprise environments.
@@ -91,4 +93,3 @@ This machine reinforces important Active Directory security concepts:
 - Apply principle of least privilege to certificate templates and CA permissions
 - Implement network segmentation to limit lateral movement
 
-{% include youtube.html id="8cTPzczgNa8" %}
