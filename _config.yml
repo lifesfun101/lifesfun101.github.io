@@ -1,5 +1,55 @@
-theme: jekyll-theme-midnight
-name: LifesFun's 101
+# Site Settings
+title: "LifesFun's 101"
+name: "LifesFun's 101"
+description: "Cybersecurity, Cloud Infrastructure & Pentesting Education"
+author: "LifesFun"
+url: "https://lifesfun101.github.io"
+baseurl: ""
 
+# Theme
+theme: jekyll-theme-midnight
+
+# Pagination
+paginate: 12
+paginate_path: "/page:num/"
+
+# Permalink structure
+permalink: /:year/:month/:day/:title/
+
+# Markdown processor
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Plugins
 plugins:
   - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+# Collections (for future use - won't affect current posts)
+collections:
+  pentest-primer:
+    output: false
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - _config.yml.backup
