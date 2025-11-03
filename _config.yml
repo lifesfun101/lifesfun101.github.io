@@ -64,10 +64,8 @@ social_preview_image: # /assets/img/preview.png
 toc: true
 
 comments:
-  # Provider options: disqus, utterances, giscus
-  provider: disqus
-  disqus:
-    shortname: # Add your Disqus shortname if you want to migrate comments
+  # Comments disabled - not actively used
+  provider: false
 
 # Self-hosting assets (optional optimization)
 assets:
@@ -116,7 +114,7 @@ defaults:
       type: posts
     values:
       layout: post
-      comments: true
+      comments: false
       toc: true
       # IMPORTANT: Maintain URL structure for SEO
       permalink: /:year/:month/:day/:title/
