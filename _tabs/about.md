@@ -6,13 +6,17 @@ order: 4
 
 ## About LifesFun's 101
 
-Welcome to LifesFun's 101! This blog is dedicated to cybersecurity, cloud infrastructure, and penetration testing education.
+This blog started as a record of my OSCP journey — a mix of excitement, frustration, and those long days of “try harder.” Since then, I’ve spent years diving deep into cybersecurity from every angle: offensive testing, defensive engineering and managerial.
+
+Today, I use this space — along with my YouTube channel — to simplify complex topics and make technical learning more practical and enjoyable. Whether it’s building with Terraform, securing AWS environments, or walking through pentesting fundamentals, everything here comes from real work and real curiosity.
+
+I still learn every day, and this blog continues to evolve with that same spirit.
+
 
 ### What You'll Find Here
 
 - **AWS Tutorials**: Hands-on labs covering AWS services like VPC, CloudFront, S3, and detective controls (Config, CloudTrail, GuardDuty)
-- **Penetration Testing**: Walkthroughs of HackTheBox machines, VulnHub challenges, and practical pentesting techniques
-- **Pentest Primer Series**: Beginner-friendly tutorials covering networking, Linux, tools like Nmap and Wireshark, and bash scripting
+- **Penetration Testing**: Beginner-friendly tutorials, walkthroughs of HackTheBox machines, VulnHub challenges, and practical pentesting techniques. 
 - **Security Education**: Course reviews (OSCP, CRTP, Offshore) and guides for aspiring security professionals
 
 ### Mission
@@ -25,5 +29,3 @@ This blog aims to share knowledge and help others learn cybersecurity through pr
 
 - **GitHub**: [lifesfun101](https://github.com/lifesfun101)
 - **YouTube**: [@openwalnut](https://www.youtube.com/@openwalnut)
-
-Happy hacking!
