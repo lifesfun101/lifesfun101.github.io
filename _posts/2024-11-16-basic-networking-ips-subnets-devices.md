@@ -1,7 +1,8 @@
 ---
-layout: post
 title: "Pentest Primer: Basic Networking Concepts: IPs, Subnets & Devices"
-date: 2024-11-16
+date: 2024-11-16 00:00:00 -0500
+categories: [Tutorials, Pentest Primer]
+tags: [pentest-primer, networking, ip-addressing, subnets, network-devices]
 ---
 
 This guide explores the fundamentals of networking with a particular emphasis on its role in ethical hacking and cybersecurity. Whether you're new to networking or looking to strengthen your foundation, this tutorial covers the essential concepts without overwhelming technical complexity.

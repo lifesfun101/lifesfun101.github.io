@@ -1,7 +1,8 @@
 ---
-layout: post
 title: "Detective Control Part 2 - AWS CloudTrail [Terraform]"
-date: 2023-09-18
+date: 2023-09-18 00:00:00 -0500
+categories: [AWS, Detective Controls]
+tags: [aws, aws-cloudtrail, terraform, logging, security, detective-controls]
 ---
 
 This hands-on lab will walk you through how to set up AWS CloudTrail using Terraform.

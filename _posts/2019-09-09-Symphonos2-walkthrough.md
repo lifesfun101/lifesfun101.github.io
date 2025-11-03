@@ -1,7 +1,8 @@
 ---
-layout: post
 title: "Symphonos2 Walkthrough"
-date: 2019-09-09
+date: 2019-09-09 00:00:00 -0500
+categories: [Pentesting, VulnHub]
+tags: [symfonos, vulnhub, enumeration, smb, web-exploitation, privilege-escalation]
 ---
 
 Symphonos2 is a vunlerable system from vulnhub.com created by Zayotic. The difficulty level of this box is intermediate. The goal is to get administrative priviliges on the sytem.

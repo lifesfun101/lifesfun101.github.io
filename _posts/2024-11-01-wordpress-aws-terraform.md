@@ -1,7 +1,8 @@
 ---
-layout: post
 title: "Build a WordPress Site on AWS: Step-by-Step Terraform Guide"
-date: 2024-11-01
+date: 2024-11-01 00:00:00 -0500
+categories: [AWS, Infrastructure]
+tags: [aws, wordpress, terraform, infrastructure-as-code, web-hosting]
 ---
 
 This hands-on lab will walk you through how to set up infrastructure for a WordPress installation on AWS using Terraform.

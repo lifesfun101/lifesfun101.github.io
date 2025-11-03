@@ -1,7 +1,8 @@
 ---
-layout: post
 title: "CRTP Exam/Course Review"
-date: 2020-12-28
+date: 2020-12-28 00:00:00 -0500
+categories: [Education, Guides]
+tags: [crtp, certification, active-directory, red-team, course-review]
 ---
 
 A little bit about my experience with Attacking & Defending Active Directory course and Certified Red Team Professional (CRTP) exam.

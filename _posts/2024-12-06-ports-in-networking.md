@@ -1,7 +1,8 @@
 ---
-layout: post
 title: "Pentest Primer: Networking Ports"
-date: 2024-12-06
+date: 2024-12-06 00:00:00 -0500
+categories: [Tutorials, Pentest Primer]
+tags: [pentest-primer, networking, ports, protocols, network-security]
 ---
 
 Ports in computer networking are critical to facilitating efficient data exchange within networks, enabling communication between devices via specific channels. Understanding ports is fundamental for anyone pursuing cybersecurity or penetration testing.

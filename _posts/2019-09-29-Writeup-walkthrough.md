@@ -1,7 +1,8 @@
 ---
-layout: post
 title: "Writeup (HTB) Walkthrough"
-date: 2019-09-29
+date: 2019-09-29 00:00:00 -0500
+categories: [Pentesting, HackTheBox]
+tags: [htb, hackthebox, enumeration, web-exploitation, cms-bypass, privilege-escalation]
 ---
 
 Writeup is a vulnerable machine from [HackTheBox]. 

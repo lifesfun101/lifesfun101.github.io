@@ -1,7 +1,8 @@
 ---
-layout: post
 title: "Create AWS VPC Using Terraform | Easy Step-By-Step Guide"
-date: 2024-10-07
+date: 2024-10-07 00:00:00 -0500
+categories: [AWS, Infrastructure]
+tags: [aws, vpc, terraform, networking, infrastructure-as-code]
 ---
 
 This hands-on lab will walk you through how to set up a Virtual Private Cloud (VPC) on AWS using Terraform.

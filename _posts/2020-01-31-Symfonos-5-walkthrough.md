@@ -1,7 +1,8 @@
 ---
-layout: post
 title: "Symfonos 5 Walkthrough"
-date: 2020-01-31
+date: 2020-01-31 00:00:00 -0500
+categories: [Pentesting, VulnHub]
+tags: [symfonos, vulnhub, enumeration, web-exploitation, privilege-escalation, ldap]
 ---
 
 It's been a while this is my first post of 2020. Symfonos is a begginer series of real-life like challenges from Vulnhub created by Zayotic.

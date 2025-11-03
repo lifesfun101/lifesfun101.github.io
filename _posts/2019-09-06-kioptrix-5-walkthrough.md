@@ -1,7 +1,8 @@
 ---
-layout: post
 title: "Kioptrix 2014 (Level 5) Walkthrough"
-date: 2019-09-06
+date: 2019-09-06 00:00:00 -0500
+categories: [Pentesting, VulnHub]
+tags: [kioptrix, vulnhub, enumeration, web-exploitation, phptax, privilege-escalation]
 ---
 
 This is the final level in Kioptrix Series. If you have completed all levels, you must've had as much fun as I did on this journey. 

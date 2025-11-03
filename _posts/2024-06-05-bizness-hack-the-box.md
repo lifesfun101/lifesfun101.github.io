@@ -1,7 +1,8 @@
 ---
-layout: post
 title: "Bizness - Hack The Box"
-date: 2024-06-05
+date: 2024-06-05 00:00:00 -0500
+categories: [Pentesting, HackTheBox]
+tags: [htb, hackthebox, enumeration, web-exploitation, privilege-escalation]
 ---
 
 This walkthrough covers Bizness, a Hack The Box machine that demonstrates exploitation of Apache OFBiz authentication bypass vulnerabilities (CVE-2023-49070 and CVE-2023-51467), Derby database enumeration, and privilege escalation through credential recovery.

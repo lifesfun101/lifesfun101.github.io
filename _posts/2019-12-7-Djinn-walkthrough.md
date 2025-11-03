@@ -1,7 +1,8 @@
 ---
-layout: post
 title: "Djinn Walkthrough"
-date: 2019-12-7
+date: 2019-12-07 00:00:00 -0500
+categories: [Pentesting, VulnHub]
+tags: [vulnhub, enumeration, ftp, web-exploitation, privilege-escalation]
 ---
 
 Djinn is a vulnerable CTF style machine from Hack the Box. It's supposed to be Beginner-Intermediate level. The point of the challenge is to get user and root flags. This machine presents different privilege escalation vectors, and definitely teaches you some unconventional new stuff.

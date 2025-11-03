@@ -1,7 +1,8 @@
 ---
-layout: post
 title: "Detective Control Part 1 - AWS Config [Terraform]"
-date: 2023-08-18
+date: 2023-08-18 00:00:00 -0500
+categories: [AWS, Detective Controls]
+tags: [aws, aws-config, terraform, compliance, security, detective-controls]
 ---
 
 This hands-on lab will walk you through how to set up a AWS Config using Terraform. 

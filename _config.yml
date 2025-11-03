@@ -1,5 +1,176 @@
-theme: jekyll-theme-midnight
-name: LifesFun's 101
+# The Site Configuration
 
-plugins:
-  - jekyll-sitemap
+# Import the theme
+theme: jekyll-theme-chirpy
+
+# The language of the webpage
+lang: en
+
+# Change to your timezone
+timezone: America/New_York
+
+# jekyll-seo-tag settings
+title: "LifesFun's 101"
+tagline: "\"The only true wisdom is in knowing you know nothing.\" - Socrates"
+description: >-
+  Cybersecurity, Cloud Infrastructure & Pentesting Education.
+  Technical walkthroughs, tutorials, and hands-on labs covering AWS,
+  penetration testing, Hack The Box, VulnHub, and security tools.
+
+# Fill in the protocol & hostname for your site
+url: "https://lifesfun101.github.io"
+
+github:
+  username: lifesfun101
+
+social:
+  name: LifesFun
+  email: # Optional - add if you want
+  links:
+    - https://github.com/lifesfun101
+    - https://www.youtube.com/@openwalnut
+    # Add other social media links if desired
+
+# Site Verification (Optional - add later if needed)
+webmaster_verifications:
+  google: # Add Google Search Console verification code
+  bing: # Add Bing verification code
+
+# Analytics (Optional - add later if needed)
+analytics:
+  google:
+    id: # Add Google Analytics ID
+  goatcounter:
+    id: # Add GoatCounter ID if using
+
+# Pageviews (Optional - requires setup)
+pageviews:
+  provider: # Leave empty for now
+
+# Prefer color scheme setting
+# Options: light, dark (Choosing dark for cybersecurity aesthetic)
+theme_mode: dark
+
+# CDN for assets (default Chirpy CDN)
+cdn: "https://chirpy-img.netlify.app"
+
+# Avatar image (optional - add avatar.png to assets/img/)
+avatar: # /assets/img/avatar.png
+
+# Social preview image for sharing
+social_preview_image: # /assets/img/preview.png
+
+# Table of Contents in posts
+toc: true
+
+comments:
+  # Provider options: disqus, utterances, giscus
+  provider: disqus
+  disqus:
+    shortname: # Add your Disqus shortname if you want to migrate comments
+
+# Self-hosting assets (optional optimization)
+assets:
+  self_host:
+    enabled: false
+    env:
+
+# Progressive Web App settings
+pwa:
+  enabled: true
+  cache:
+    enabled: true
+    deny_paths:
+      # Exclude paths from PWA cache
+
+# Pagination (Chirpy uses built-in pagination)
+paginate: 10
+
+# Base URL (empty for root)
+baseurl: ""
+
+# ------------ The following options are not recommended to be modified ------------------
+
+# Markdown processor
+kramdown:
+  footnote_backlink: "&#8617;&#xfe0e;"
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+# Collections
+collections:
+  tabs:
+    output: true
+    sort_by: order
+
+# Default front matter values
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: true
+      toc: true
+      # IMPORTANT: Maintain URL structure for SEO
+      permalink: /:year/:month/:day/:title/
+  - scope:
+      path: _drafts
+    values:
+      comments: false
+  - scope:
+      path: ""
+      type: tabs
+    values:
+      layout: page
+      permalink: /:title/
+
+# Sass compilation
+sass:
+  style: compressed
+
+# HTML compression
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  blanklines: false
+  ignore:
+    envs: [development]
+
+# Exclude from processing
+exclude:
+  - "*.gem"
+  - "*.gemspec"
+  - docs
+  - tools
+  - README.md
+  - LICENSE
+  - rollup.config.js
+  - package*.json
+  - "*.config.js"
+  - Gemfile
+  - Gemfile.lock
+  - Gemfile.midnight
+  - _config.yml.midnight
+  - _config.yml.backup
+  - index.html.backup
+  - node_modules
+  - vendor
+
+# Jekyll Archives - Category and tag pages
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/

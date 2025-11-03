@@ -1,7 +1,8 @@
 ---
-layout: post
 title: "Me and My Girlfriend Walkthrough"
-date: 2019-12-21
+date: 2019-12-21 00:00:00 -0500
+categories: [Pentesting, VulnHub]
+tags: [vulnhub, enumeration, web-exploitation, lfi, privilege-escalation]
 ---
 
 Me and My Girlfriend is a beginner level VM created by TW1C3 on vulnhub. It is truly beginner friendly but fun at the same time. One gets to practice enumeration, web application vulnerabilities and simple privilege escalation. I think this is a good beggining point for some of the people studying for OSCP.

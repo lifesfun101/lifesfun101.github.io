@@ -1,7 +1,8 @@
 ---
-layout: post
 title: "Keeper - Hack The Box"
-date: 2024-02-11
+date: 2024-02-11 00:00:00 -0500
+categories: [Pentesting, HackTheBox]
+tags: [htb, hackthebox, enumeration, web-exploitation, privilege-escalation]
 ---
 
 This walkthrough covers Keeper, an easy-level machine from Hack The Box that demonstrates the exploitation of default credentials, a recent KeePass vulnerability (CVE-2023-32784), and PuTTY key-based privilege escalation.
