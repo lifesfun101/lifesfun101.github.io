@@ -1,7 +1,8 @@
 ---
-layout: post
 title: "Pentest Primer: Networking Protocols Practical Demo"
-date: 2024-12-01
+date: 2024-12-01 00:00:00 -0500
+categories: [Tutorials, Pentest Primer]
+tags: [pentest-primer, wireshark, packet-analysis, network-security, tools]
 ---
 
 Welcome to this hands-on demonstration where we dive into essential network protocols and their practical applications in ethical hacking using Wireshark and command-line utilities.

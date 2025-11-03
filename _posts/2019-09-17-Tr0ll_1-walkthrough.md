@@ -1,7 +1,8 @@
 ---
-layout: post
 title: "Tr0ll 1"
-date: 2019-09-17
+date: 2019-09-17 00:00:00 -0500
+categories: [Pentesting, VulnHub]
+tags: [troll, vulnhub, enumeration, ftp, web-exploitation, privilege-escalation]
 ---
 
 Tr0ll is a CTF style system from vulnhub.com created by Maleus. The enumeration is key in this one. There is a lot of trolling and hints in every troll. As they say, there's grain of truth in every joke.

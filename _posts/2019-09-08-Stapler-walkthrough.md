@@ -1,7 +1,8 @@
 ---
-layout: post
 title: "Stapler"
-date: 2019-09-08
+date: 2019-09-08 00:00:00 -0500
+categories: [Pentesting, VulnHub]
+tags: [stapler, vulnhub, enumeration, web-exploitation, privilege-escalation, ftp]
 ---
 
 Stapler is a begginer/intermedite level vunlerable system from vulnhub.com created by g0tmi1k. The goal is to get administrative priviliges on the sytem.

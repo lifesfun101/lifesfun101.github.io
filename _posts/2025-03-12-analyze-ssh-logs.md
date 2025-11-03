@@ -1,7 +1,8 @@
 ---
-layout: post
 title: "Pentest Primer: Bash Scripting Basics Part 2 - SSH Log Analysis"
-date: 2025-03-12
+date: 2025-03-12 00:00:00 -0500
+categories: [Tutorials, Pentest Primer]
+tags: [pentest-primer, bash-scripting, ssh, log-analysis, security]
 ---
 
 Discover how to transform raw log data into actionable security insights using powerful Linux command-line tools. This lesson demonstrates how to identify potential cyber threats by analyzing SSH log files for suspicious activities and failed login attempts.

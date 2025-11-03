@@ -1,7 +1,8 @@
 ---
-layout: post
 title: "CozyHosting - Hack The Box"
-date: 2024-02-14
+date: 2024-02-14 00:00:00 -0500
+categories: [Pentesting, HackTheBox]
+tags: [htb, hackthebox, enumeration, web-exploitation, privilege-escalation]
 ---
 
 This walkthrough covers CozyHosting, a Hack The Box machine that involves web application enumeration, exploiting Apache OFBiz authentication bypass vulnerabilities, database enumeration, hash cracking, and Linux privilege escalation.

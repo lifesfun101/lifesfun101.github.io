@@ -1,7 +1,8 @@
 ---
-layout: post
 title: "Manager - Hack The Box"
-date: 2024-03-28
+date: 2024-03-28 00:00:00 -0500
+categories: [Pentesting, HackTheBox]
+tags: [htb, hackthebox, enumeration, web-exploitation, privilege-escalation, active-directory]
 ---
 
 This walkthrough covers Manager, a Hack The Box machine that demonstrates Active Directory enumeration, password spraying attacks, and exploitation of Active Directory Certificate Services using the ESC7 privilege escalation technique.

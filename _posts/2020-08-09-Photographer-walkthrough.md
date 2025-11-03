@@ -1,7 +1,8 @@
 ---
-layout: post
 title: "Photographer Walkthrough"
-date: 2020-08-09
+date: 2020-08-09 00:00:00 -0500
+categories: [Pentesting, VulnHub]
+tags: [photographer, vulnhub, enumeration, web-exploitation, privilege-escalation]
 ---
 
 Photographer is an intentionally vulnerable machine created by v1n1v131r4 to prepare fellow hackers for OSCP certification, which can be obtained from Vulnhub.

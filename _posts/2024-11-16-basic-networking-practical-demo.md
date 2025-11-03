@@ -1,7 +1,8 @@
 ---
-layout: post
 title: "Pentest Primer: Basic Networking Concepts: Practical Demo"
-date: 2024-11-16
+date: 2024-11-16 00:00:00 -0500
+categories: [Tutorials, Pentest Primer]
+tags: [pentest-primer, networking, wireshark, packet-analysis, practical-demo]
 ---
 
 This hands-on demonstration showcases the practical application of networking concepts covered in the previous lesson, including IP addresses, network interfaces, subnets, default gateways, and ARP tables.

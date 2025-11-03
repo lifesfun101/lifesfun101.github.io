@@ -1,7 +1,8 @@
 ---
-layout: post
 title: "Remote Walkthrough"
-date: 2020-09-12
+date: 2020-09-12 00:00:00 -0500
+categories: [Pentesting, HackTheBox]
+tags: [htb, hackthebox, enumeration, web-exploitation, privilege-escalation, nfs]
 ---
 
 Remote is a Windows-based vulnerable machine created by mrb3n for HackTheBox platform. This machine follows OSCP style in my opinion and experience. 

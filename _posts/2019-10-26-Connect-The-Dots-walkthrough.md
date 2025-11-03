@@ -1,7 +1,8 @@
 ---
-layout: post
 title: "Connect The Dots Walkthrough"
-date: 2019-10-26
+date: 2019-10-26 00:00:00 -0500
+categories: [Pentesting, VulnHub]
+tags: [vulnhub, enumeration, web-exploitation, privilege-escalation, ctf]
 ---
 
 Connect The Dots is a CTF style challenge from Vulnhub created by Sumit Verma. This box main objective seems to be thorough enumeration, connecting various hints given throughout the process.

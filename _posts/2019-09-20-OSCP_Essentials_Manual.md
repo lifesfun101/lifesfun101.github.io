@@ -1,7 +1,8 @@
 ---
-layout: post
 title: "OSCP Essentials Manual"
-date: 2019-09-20
+date: 2019-09-20 00:00:00 -0500
+categories: [Education, Guides]
+tags: [oscp, certification, penetration-testing, study-guide, exam-prep]
 ---
 
 A little manual with essentials for OSCP preparation. These are some of the resources I used and noted while preparing for OSCP. I hope this helps some of you on your journey

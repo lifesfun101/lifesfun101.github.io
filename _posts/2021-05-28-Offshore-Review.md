@@ -1,7 +1,8 @@
 ---
-layout: post
 title: "Hack-the-Box Pro Labs: Offshore Review"
-date: 2021-05-28
+date: 2021-05-28 00:00:00 -0500
+categories: [Education, Guides]
+tags: [htb, pro-labs, offshore, penetration-testing, lab-review]
 ---
 
 Depositing my 2 cents into the Offshore Account.

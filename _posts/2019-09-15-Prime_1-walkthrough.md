@@ -1,7 +1,8 @@
 ---
-layout: post
 title: "Prime: 1"
-date: 2019-09-15
+date: 2019-09-15 00:00:00 -0500
+categories: [Pentesting, VulnHub]
+tags: [prime, vulnhub, enumeration, web-exploitation, wordpress, privilege-escalation]
 ---
 
 Prime: 1 is a vulnerable box from vulnhub.com created by Suraj Pandey. The machine is an OSCP style challenge with a little flavor of CTF.

@@ -1,7 +1,8 @@
 ---
-layout: post
 title: "Static Website Using Cloudfront with S3 Bucket [Terraform]"
-date: 2023-05-05
+date: 2023-05-05 00:00:00 -0500
+categories: [AWS, Infrastructure]
+tags: [aws, cloudfront, s3, terraform, static-website, infrastructure-as-code]
 ---
 
 This hands-on lab will walk you through how to set up a static website using an Amazon S3 bucket in combination with Amazon CloudFront. 

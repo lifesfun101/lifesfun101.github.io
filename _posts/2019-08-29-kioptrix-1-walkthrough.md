@@ -1,7 +1,8 @@
 ---
-layout: post
 title: "Kioptrix 1 Walkthrough"
-date: 2019-08-29
+date: 2019-08-29 00:00:00 -0500
+categories: [Pentesting, VulnHub]
+tags: [kioptrix, vulnhub, enumeration, web-exploitation, kernel-exploit, privilege-escalation]
 ---
 
 Kioptrix is a series of vulnerable machines hosted on Vulnhub. Each machine provides a different security challenge than the previous one and each machine (level) gets harder. Kioptrix series make perfect targets to practice enumeration, identify vulnerabilities, research exploits available thus sharpening your pentesting skills. This particular level involves a web vulnerability and a kernel vulnerability.

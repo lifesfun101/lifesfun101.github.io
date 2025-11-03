@@ -1,7 +1,8 @@
 ---
-layout: post
 title: "Sau - Hack The Box"
-date: 2023-12-15
+date: 2023-12-15 00:00:00 -0500
+categories: [Pentesting, HackTheBox]
+tags: [htb, hackthebox, enumeration, web-exploitation, privilege-escalation]
 ---
 
 This walkthrough covers Sau, a Hack The Box machine that demonstrates Server-Side Request Forgery (SSRF) vulnerabilities and privilege escalation techniques.

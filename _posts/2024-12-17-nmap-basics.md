@@ -1,7 +1,8 @@
 ---
-layout: post
 title: "Pentest Primer: Network Ports Demo"
-date: 2024-12-17
+date: 2024-12-17 00:00:00 -0500
+categories: [Tutorials, Pentest Primer]
+tags: [pentest-primer, nmap, port-scanning, enumeration, reconnaissance]
 ---
 
 This lesson covers the foundational concepts of port security and introduces Nmap, one of the most essential tools in penetration testing and network security.

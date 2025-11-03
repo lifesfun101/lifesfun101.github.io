@@ -1,7 +1,8 @@
 ---
-layout: post
 title: "Authority - Hack The Box"
-date: 2023-12-12
+date: 2023-12-12 00:00:00 -0500
+categories: [Pentesting, HackTheBox]
+tags: [htb, hackthebox, enumeration, web-exploitation, privilege-escalation, active-directory]
 ---
 
 This walkthrough covers Authority, a medium-level Windows machine from Hack The Box that involves SMB information disclosure, hash cracking, LDAP clear text credentials, and exploiting a configured Active Directory Certificate Authority.

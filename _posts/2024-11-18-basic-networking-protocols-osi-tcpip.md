@@ -1,7 +1,8 @@
 ---
-layout: post
 title: "Pentest Primer: Basic Networking: Protocols and OSI, TCP/IP Models"
-date: 2024-11-18
+date: 2024-11-18 00:00:00 -0500
+categories: [Tutorials, Pentest Primer]
+tags: [pentest-primer, networking, protocols, osi-model, tcp-ip]
 ---
 
 Understanding networking protocols is like knowing the language of the internet. Protocols are what allow devices to communicate effectively across networks, and understanding them is essential for anyone pursuing cybersecurity or penetration testing.

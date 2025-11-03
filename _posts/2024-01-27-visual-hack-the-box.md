@@ -1,7 +1,8 @@
 ---
-layout: post
 title: "Visual - Hack The Box"
-date: 2024-01-27
+date: 2024-01-27 00:00:00 -0500
+categories: [Pentesting, HackTheBox]
+tags: [htb, hackthebox, enumeration, web-exploitation, privilege-escalation]
 ---
 
 This walkthrough covers Visual, a Hack The Box machine that involves exploiting a .NET C# project build process, achieving code execution through Visual Studio build events, and performing privilege escalation using service exploitation and potato-based privilege escalation techniques.

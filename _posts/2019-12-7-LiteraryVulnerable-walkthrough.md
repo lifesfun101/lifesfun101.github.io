@@ -1,7 +1,8 @@
 ---
-layout: post
 title: "LiterallyVulnerable Walkthrough"
-date: 2019-12-10
+date: 2019-12-10 00:00:00 -0500
+categories: [Pentesting, VulnHub]
+tags: [vulnhub, enumeration, web-exploitation, privilege-escalation, ctf]
 ---
 
 LiterallyVulnerable is yet another CTF-style box from VulnHub which calls for enumeration and code injection. Rated easy and so it was.

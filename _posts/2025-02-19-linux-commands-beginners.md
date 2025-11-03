@@ -1,7 +1,8 @@
 ---
-layout: post
 title: "Pentest Primer: Bash Scripting Basics"
-date: 2025-02-19
+date: 2025-02-19 00:00:00 -0500
+categories: [Tutorials, Pentest Primer]
+tags: [pentest-primer, linux, bash, command-line, beginner-guide]
 ---
 
 This lesson introduces essential Linux commands and scripting fundamentals crucial for penetration testing and cybersecurity work.
