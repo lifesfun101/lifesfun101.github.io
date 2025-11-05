@@ -39,6 +39,12 @@ jobs:
         env:
           JEKYLL_ENV: production
 
+      - name: Test HTML with htmlproofer
+        run: |
+          bundle exec htmlproofer _site \
+            --disable-external \
+            --ignore-urls "/^http:\/\/(192\.168\.|127\.0\.0\.1|localhost|kioptrix)/"
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
