@@ -157,7 +157,7 @@ Reviewing the exploit:
 
 Right at the top there&#39;s a helpful note from exploit-db which gives us a link to a page that tells us how to update the exploit:
 
-[http://paulsec.github.io/blog/2014/04/14/updating-openfuck-exploit/](http://paulsec.github.io/blog/2014/04/14/updating-openfuck-exploit/)
+[https://paulsec.github.io/blog/2014/04/14/updating-openfuck-exploit/](https://paulsec.github.io/blog/2014/04/14/updating-openfuck-exploit/)
 
 \*Note: The exploit tells us to use -lcrypto flag when compiling the exploit. At first compilation attempt the -lcrypto flag was not used.
 
